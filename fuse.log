@@ -1,0 +1,46 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "Y:/Documents/MIPS STACK/TOP_isim_beh.exe" -prj "Y:/Documents/MIPS STACK/TOP_beh.prj" "work.TOP" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "Y:/Documents/MIPS STACK/MPY_32.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/MIPS_32.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/DIV_32.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/V_ALU.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/Vregfile32.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/regfile32.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/ALU.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/V_Unit.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/MCU.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/integer_datapath.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/instruction_unit.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/PROCESSOR.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/EXTERNAL_IO.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/Data_Memory.v" into library work
+Analyzing Verilog file "Y:/Documents/MIPS STACK/TOP.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1007 - "Y:/Documents/MIPS STACK/V_ALU.v" Line 119: Element index 64 into S is out of bounds
+Completed static elaboration
+Compiling module MCU
+Compiling module regfile32
+Compiling module MPY_32
+Compiling module DIV_32
+Compiling module MIPS_32
+Compiling module ALU
+Compiling module integer_datapath
+Compiling module instruction_unit
+Compiling module Vregfile64
+Compiling module V_ALU
+Compiling module V_Unit
+Compiling module PROCESSOR
+Compiling module EXTERNAL_IO
+Compiling module Data_Memory
+Compiling module TOP
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable Y:/Documents/MIPS STACK/TOP_isim_beh.exe
+Fuse Memory Usage: 32808 KB
+Fuse CPU Usage: 623 ms

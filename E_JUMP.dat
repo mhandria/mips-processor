@@ -1,0 +1,192 @@
+@0
+// TEST MRGHI
+3c 01 5a f0  //
+34 21 a5 01  // LI R01
+3c 02 ab 01  //
+34 42 55 c3  // LI R02
+
+3c 03 a5 0f
+34 63 5a 23  // LI R03
+3c 04 cd 23
+34 84 aa 3c  // LI R04
+
+7c 22 08 06  // MVGPR V1, $01, $02
+7c 64 10 06  // MVGPR V2, $03, $04
+
+7c 41 18 0d  // MRGLO V3, V2, V1
+7c 66 28 07
+00 00 00 0d  //            break
+
+
+
+
+
+20 0d ff ff  // LI R13, 0xFFFFFFFF
+7c 00 00 43  // JN
+00 00 00 0d  // break
+3c 0e ff ff  // jump pass:
+35 ce ff ff  // LI R14, 0xFFFFFFFF pass flag
+00 00 00 0d
+
+
+
+
+
+
+// TEST MRGHI
+3c 01 5a f0  //
+34 21 a5 01  // LI R01
+3c 02 ab 01  //
+34 42 55 c3  // LI R02
+
+3c 03 a5 0f
+34 63 5a 23  // LI R03
+3c 04 cd 23
+34 84 aa 3c  // LI R04
+
+7c 22 08 06  // MVGPR V1, $01, $02
+7c 64 10 06  // MVGPR V2, $03, $04
+
+7c 41 18 0d  // MRGLO V3, V2, V1
+7c 66 21 07
+00 00 00 0d  //            break
+
+
+
+
+
+
+
+
+›
+// TEST MULADD
+3c 01 12 0c  //
+34 21 1a 0d  // LI R01, 0x120C1A0D
+3c 02 23 05  //
+34 42 19 12  // LI R02, 0x23051912
+
+3c 03 3d 0c
+34 63 10 4d  // LI R03, 0x981963C5
+3c 04 05 7f
+34 84 19 2b  // LI R04, 0x5E80B36E
+
+3c 05 60 09
+34 a5 1b 05  // LI R05, 0x60091B05
+3c 06 50 1e
+34 c6 06 60  // LI R06, 0x501E0660
+
+7c 22 08 06  // MVGPR V1, $01, $02
+7c 64 10 06  // MVGPR V2, $03, $04
+7c a6 18 06  // MVGPR V3, $05, $06
+
+7c 22 20 c9  // MULADD V4, V1, V2, V3
+00 00 00 0d  // break
+
+
+
+
+
+
+
+
+
+
+// TEST MVGPR AND VADUS
+3c 01 23 3c  //
+34 21 47 5d  // LI R01, 0x233C475D
+3c 02 08 7f  //
+34 42 19 6f  // LI R02, 0x087F196F
+
+3c 03 98 19
+34 63 63 c5  // LI R03, 0x981963C5
+3c 04 5e 80
+34 84 b3 6e  // LI R04, 0x5E80B36E
+
+7c 22 08 06  // MVGPR V1, $01, $02
+7c 64 10 06  // MVGPR V2, $03, $04
+
+7c 22 18 08  // VADUS V3, V2, V1
+00 00 00 0d  //            break
+
+
+
+
+
+
+
+
+
+
+
+// TEST MULOI
+3c 01 ae e9  // main:      lui  $01, 0x233C
+34 21 5a e0  //            ori  $01, 0x475D    # LI   R01,  0x8000FFFF
+3c 02 f0 80  //            lui  $02, 0x087f
+34 42 cc 66  //            addi $02, 0x196f    # LI   R02,  0x10
+
+3c 03 33 14
+34 63 61 70  // LI R03, 0x981963C5
+3c 04 60 98
+34 84 88 ab  // LI R04, 0x5E80B36E
+
+7c 22 08 06  // MVGPR V1, $01, $02
+7c 64 10 06  // MVGPR V2, $03, $04
+
+7c 22 18 0b  // MULIE V3, V2, V1
+00 00 00 0d  //            break
+
+
+
+
+
+
+
+
+
+// TEST MULOI
+3c 01 ae e9  // main:      lui  $01, 0x233C
+34 21 5a e0  //            ori  $01, 0x475D    # LI   R01,  0x8000FFFF
+3c 02 f0 80  //            lui  $02, 0x087f
+34 42 cc 66  //            addi $02, 0x196f    # LI   R02,  0x10
+
+3c 03 33 14
+34 63 61 70  // LI R03, 0x981963C5
+3c 04 60 98
+34 84 88 ab  // LI R04, 0x5E80B36E
+
+7c 22 08 06  // MVGPR V1, $01, $02
+7c 64 10 06  // MVGPR V2, $03, $04
+
+7c 22 18 0b  // MULIE V3, V2, V1
+00 00 00 0d  //            break
+
+
+
+
+
+
+
+
+
+3c 0f 10 01  //            lui  $15, 0x1001
+35 ef 00 c0  //            ori  $15, 0x00C0        # LI   R15,  0x100100C0
+
+00 01 08 43  // top:       sra  $01, $01, 1        # logical shift right 1 bit
+ad e1 00 00  //            sw   $01, 0($15)        # ST  [R15], R01
+21 ef 00 04  //            addi $15, $15, 4        # increment the memory pointer 4 bytes
+20 42 ff ff  //            addi $02, $02, -1       # decrement the loop counter
+14 40 ff fb  //            bne  $02, $00, top      #  and jmp to top if not finished
+
+//test JN
+20 0d ff ff  //            addi $13, $00, 16       # LI   R13,  16          loop counter
+7c 00 00 43  //            j    exit               # jump around a halt instruction
+00 00 00 0d  //            break
+
+3c 0e 5a 5a  // exit:      lui  $14, 0x5A5A
+35 ce 3c 3c  //            ori  $14, 0x3C3C        # LI   R14,  0x5A5A3C3C
+3c 0e 10 10
+35 ce 10 10
+7c 0e 70 81
+7c 41 08 06  //            mvgpr $v1, $1 $2
+7c 23 20 07  //            mvvcr $3 $4, $v1
+00 00 00 0d  //            break

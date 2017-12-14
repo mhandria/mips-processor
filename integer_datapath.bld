@@ -1,0 +1,9 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3
+integer_datapath.ngc integer_datapath.ngd
+
+Reading NGO file "Y:/Documents/CECS440Lab3/integer_datapath.ngc" ...
+Gathering constraint information from source properties...

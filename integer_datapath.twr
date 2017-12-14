@@ -1,0 +1,2375 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml integer_datapath.twx integer_datapath.ncd -o
+integer_datapath.twr integer_datapath.pcf
+
+Design file:              integer_datapath.ncd
+Physical constraint file: integer_datapath.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+DT<0>       |   85.423(R)|      SLOW  |   -0.467(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<1>       |   85.681(R)|      SLOW  |   -0.615(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<2>       |   85.182(R)|      SLOW  |   -0.198(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<3>       |   85.091(R)|      SLOW  |   -0.333(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<4>       |   84.847(R)|      SLOW  |    0.000(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<5>       |   85.129(R)|      SLOW  |   -0.426(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<6>       |   84.995(R)|      SLOW  |   -0.240(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<7>       |   85.050(R)|      SLOW  |   -0.099(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<8>       |   84.822(R)|      SLOW  |   -0.069(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<9>       |   84.995(R)|      SLOW  |   -0.108(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<10>      |   85.012(R)|      SLOW  |   -0.044(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<11>      |   85.170(R)|      SLOW  |   -0.455(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<12>      |   84.872(R)|      SLOW  |   -0.157(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<13>      |   84.962(R)|      SLOW  |   -0.324(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<14>      |   85.497(R)|      SLOW  |   -0.519(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<15>      |   85.029(R)|      SLOW  |   -0.371(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<16>      |   85.236(R)|      SLOW  |   -0.235(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<17>      |   84.656(R)|      SLOW  |   -0.320(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<18>      |   85.056(R)|      SLOW  |   -0.478(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<19>      |   84.968(R)|      SLOW  |   -0.487(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<20>      |   85.085(R)|      SLOW  |   -0.469(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<21>      |   84.998(R)|      SLOW  |   -0.607(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<22>      |   84.962(R)|      SLOW  |   -0.452(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<23>      |   84.864(R)|      SLOW  |   -0.243(R)|      SLOW  |clk_BUFGP         |   0.000|
+DT<24>      |   84.694(R)|      SLOW  |   -0.446(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<25>      |   84.912(R)|      SLOW  |   -0.436(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<26>      |   84.482(R)|      SLOW  |   -0.125(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<27>      |   84.697(R)|      SLOW  |   -0.396(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<28>      |   85.142(R)|      SLOW  |   -0.729(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<29>      |   84.623(R)|      SLOW  |   -0.633(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<30>      |   84.487(R)|      SLOW  |   -0.493(R)|      FAST  |clk_BUFGP         |   0.000|
+DT<31>      |   84.434(R)|      SLOW  |    0.191(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<0>       |    2.301(R)|      SLOW  |   -0.110(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<1>       |    2.222(R)|      SLOW  |   -0.054(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<2>       |    2.088(R)|      SLOW  |    0.119(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<3>       |    2.131(R)|      SLOW  |    0.235(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<4>       |    2.980(R)|      SLOW  |   -0.609(R)|      FAST  |clk_BUFGP         |   0.000|
+DY<5>       |    2.816(R)|      SLOW  |   -0.338(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<6>       |    1.774(R)|      SLOW  |   -0.061(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<7>       |    2.058(R)|      SLOW  |   -0.111(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<8>       |    2.482(R)|      SLOW  |   -0.400(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<9>       |    2.228(R)|      SLOW  |   -0.027(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<10>      |    1.853(R)|      SLOW  |    0.527(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<11>      |    2.063(R)|      SLOW  |    0.157(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<12>      |    1.425(R)|      FAST  |    0.812(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<13>      |    2.068(R)|      SLOW  |    0.445(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<14>      |    1.340(R)|      FAST  |    0.679(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<15>      |    1.314(R)|      FAST  |    0.655(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<16>      |    2.286(R)|      SLOW  |   -0.140(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<17>      |    2.570(R)|      SLOW  |    0.841(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<18>      |    2.048(R)|      SLOW  |    0.054(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<19>      |    2.771(R)|      SLOW  |   -0.134(R)|      FAST  |clk_BUFGP         |   0.000|
+DY<20>      |    1.997(R)|      SLOW  |    0.322(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<21>      |    2.238(R)|      SLOW  |    0.095(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<22>      |    2.540(R)|      SLOW  |    0.231(R)|      FAST  |clk_BUFGP         |   0.000|
+DY<23>      |    1.783(R)|      SLOW  |    0.349(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<24>      |    2.521(R)|      SLOW  |    0.008(R)|      FAST  |clk_BUFGP         |   0.000|
+DY<25>      |    2.192(R)|      SLOW  |    0.137(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<26>      |    2.664(R)|      SLOW  |   -0.356(R)|      FAST  |clk_BUFGP         |   0.000|
+DY<27>      |    2.168(R)|      SLOW  |   -0.049(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<28>      |    2.787(R)|      SLOW  |   -0.697(R)|      FAST  |clk_BUFGP         |   0.000|
+DY<29>      |    2.490(R)|      SLOW  |   -0.097(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<30>      |    2.652(R)|      SLOW  |    0.280(R)|      SLOW  |clk_BUFGP         |   0.000|
+DY<31>      |    1.549(R)|      SLOW  |    0.535(R)|      SLOW  |clk_BUFGP         |   0.000|
+D_Addr<0>   |    6.535(R)|      SLOW  |    0.588(R)|      SLOW  |clk_BUFGP         |   0.000|
+D_Addr<1>   |    5.818(R)|      SLOW  |    0.708(R)|      SLOW  |clk_BUFGP         |   0.000|
+D_Addr<2>   |    4.791(R)|      SLOW  |    1.131(R)|      SLOW  |clk_BUFGP         |   0.000|
+D_Addr<3>   |    4.854(R)|      SLOW  |    1.029(R)|      SLOW  |clk_BUFGP         |   0.000|
+D_Addr<4>   |    4.798(R)|      SLOW  |    1.005(R)|      SLOW  |clk_BUFGP         |   0.000|
+D_en        |    3.238(R)|      SLOW  |    1.395(R)|      SLOW  |clk_BUFGP         |   0.000|
+FS<0>       |   10.266(R)|      SLOW  |    0.995(R)|      SLOW  |clk_BUFGP         |   0.000|
+FS<1>       |    9.774(R)|      SLOW  |    0.355(R)|      SLOW  |clk_BUFGP         |   0.000|
+FS<2>       |    9.212(R)|      SLOW  |   -0.128(R)|      SLOW  |clk_BUFGP         |   0.000|
+FS<3>       |    8.829(R)|      SLOW  |   -0.189(R)|      SLOW  |clk_BUFGP         |   0.000|
+FS<4>       |    9.752(R)|      SLOW  |    0.238(R)|      SLOW  |clk_BUFGP         |   0.000|
+HILO_ld     |    1.552(R)|      SLOW  |    0.945(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<0>    |    2.439(R)|      SLOW  |   -0.237(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<1>    |    2.142(R)|      SLOW  |   -0.028(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<2>    |    2.164(R)|      SLOW  |    0.029(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<3>    |    2.803(R)|      SLOW  |   -0.266(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<4>    |    2.729(R)|      SLOW  |   -0.192(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<5>    |    2.913(R)|      SLOW  |   -0.358(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<6>    |    2.595(R)|      SLOW  |   -0.487(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<7>    |    2.363(R)|      SLOW  |   -0.087(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<8>    |    2.439(R)|      SLOW  |   -0.113(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<9>    |    1.933(R)|      SLOW  |    0.334(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<10>   |    2.541(R)|      SLOW  |    0.036(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<11>   |    2.515(R)|      SLOW  |   -0.178(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<12>   |    2.381(R)|      SLOW  |    0.032(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<13>   |    2.810(R)|      SLOW  |    0.009(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<14>   |    2.761(R)|      SLOW  |   -0.338(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<15>   |    2.445(R)|      SLOW  |   -0.145(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<16>   |    2.672(R)|      SLOW  |   -0.155(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<17>   |    3.614(R)|      SLOW  |   -0.301(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<18>   |    2.774(R)|      SLOW  |   -0.314(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<19>   |    2.611(R)|      SLOW  |   -0.188(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<20>   |    3.143(R)|      SLOW  |   -0.292(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<21>   |    2.641(R)|      SLOW  |   -0.042(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<22>   |    3.747(R)|      SLOW  |   -0.631(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<23>   |    2.517(R)|      SLOW  |   -0.133(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<24>   |    3.071(R)|      SLOW  |   -0.331(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<25>   |    3.104(R)|      SLOW  |   -0.523(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<26>   |    3.124(R)|      SLOW  |   -0.465(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<27>   |    3.174(R)|      SLOW  |   -0.569(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<28>   |    3.188(R)|      SLOW  |   -0.824(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<29>   |    3.241(R)|      SLOW  |   -0.614(R)|      FAST  |clk_BUFGP         |   0.000|
+PC_in<30>   |    2.869(R)|      SLOW  |   -0.126(R)|      SLOW  |clk_BUFGP         |   0.000|
+PC_in<31>   |    2.606(R)|      SLOW  |   -0.079(R)|      SLOW  |clk_BUFGP         |   0.000|
+S_Addr<0>   |   89.505(R)|      SLOW  |   -0.479(R)|      SLOW  |clk_BUFGP         |   0.000|
+S_Addr<1>   |   91.640(R)|      SLOW  |   -1.252(R)|      FAST  |clk_BUFGP         |   0.000|
+S_Addr<2>   |   88.516(R)|      SLOW  |   -0.293(R)|      SLOW  |clk_BUFGP         |   0.000|
+S_Addr<3>   |   88.706(R)|      SLOW  |    0.475(R)|      SLOW  |clk_BUFGP         |   0.000|
+S_Addr<4>   |   87.675(R)|      SLOW  |    0.215(R)|      SLOW  |clk_BUFGP         |   0.000|
+T_Addr<0>   |   89.895(R)|      SLOW  |   -1.172(R)|      FAST  |clk_BUFGP         |   0.000|
+T_Addr<1>   |   90.602(R)|      SLOW  |   -0.989(R)|      FAST  |clk_BUFGP         |   0.000|
+T_Addr<2>   |   89.167(R)|      SLOW  |   -0.909(R)|      FAST  |clk_BUFGP         |   0.000|
+T_Addr<3>   |   88.741(R)|      SLOW  |   -0.611(R)|      FAST  |clk_BUFGP         |   0.000|
+T_Addr<4>   |   87.801(R)|      SLOW  |   -0.721(R)|      FAST  |clk_BUFGP         |   0.000|
+T_sel       |   86.219(R)|      SLOW  |    0.279(R)|      SLOW  |clk_BUFGP         |   0.000|
+Y_sel<0>    |    5.341(R)|      SLOW  |   -0.178(R)|      SLOW  |clk_BUFGP         |   0.000|
+Y_sel<1>    |    5.097(R)|      SLOW  |   -0.161(R)|      SLOW  |clk_BUFGP         |   0.000|
+Y_sel<2>    |    3.472(R)|      SLOW  |    1.222(R)|      SLOW  |clk_BUFGP         |   0.000|
+reset       |    5.068(R)|      SLOW  |    0.497(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+ALU_out<0>  |        93.066(R)|      SLOW  |         4.845(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<1>  |        93.240(R)|      SLOW  |         4.781(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<2>  |        93.417(R)|      SLOW  |         4.586(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<3>  |        94.119(R)|      SLOW  |         4.952(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<4>  |        93.040(R)|      SLOW  |         4.486(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<5>  |        93.914(R)|      SLOW  |         4.739(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<6>  |        93.337(R)|      SLOW  |         4.786(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<7>  |        94.044(R)|      SLOW  |         4.509(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<8>  |        93.890(R)|      SLOW  |         4.842(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<9>  |        93.705(R)|      SLOW  |         4.549(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<10> |        94.907(R)|      SLOW  |         5.257(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<11> |        94.518(R)|      SLOW  |         5.315(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<12> |        93.792(R)|      SLOW  |         4.800(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<13> |        94.603(R)|      SLOW  |         4.897(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<14> |        93.618(R)|      SLOW  |         4.571(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<15> |        94.159(R)|      SLOW  |         5.038(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<16> |        94.434(R)|      SLOW  |         4.809(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<17> |        94.522(R)|      SLOW  |         4.929(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<18> |        94.717(R)|      SLOW  |         4.908(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<19> |        94.121(R)|      SLOW  |         4.931(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<20> |        94.974(R)|      SLOW  |         5.084(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<21> |        94.827(R)|      SLOW  |         4.966(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<22> |        95.386(R)|      SLOW  |         4.947(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<23> |        95.087(R)|      SLOW  |         5.111(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<24> |        95.216(R)|      SLOW  |         5.155(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<25> |        94.552(R)|      SLOW  |         4.844(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<26> |        95.313(R)|      SLOW  |         5.142(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<27> |        95.207(R)|      SLOW  |         5.471(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<28> |        95.385(R)|      SLOW  |         5.584(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<29> |        95.390(R)|      SLOW  |         5.109(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<30> |        94.951(R)|      SLOW  |         5.470(R)|      FAST  |clk_BUFGP         |   0.000|
+ALU_out<31> |        94.831(R)|      SLOW  |         5.170(R)|      FAST  |clk_BUFGP         |   0.000|
+C           |        15.926(R)|      SLOW  |         5.165(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<0>    |        11.046(R)|      SLOW  |         4.527(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<1>    |        12.537(R)|      SLOW  |         5.354(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<2>    |        12.315(R)|      SLOW  |         5.187(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<3>    |        11.769(R)|      SLOW  |         4.908(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<4>    |        11.413(R)|      SLOW  |         4.696(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<5>    |        11.070(R)|      SLOW  |         4.574(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<6>    |        13.060(R)|      SLOW  |         5.683(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<7>    |        12.200(R)|      SLOW  |         5.317(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<8>    |        11.649(R)|      SLOW  |         4.849(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<9>    |        12.583(R)|      SLOW  |         5.477(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<10>   |        13.071(R)|      SLOW  |         5.699(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<11>   |        11.004(R)|      SLOW  |         4.627(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<12>   |        12.608(R)|      SLOW  |         5.355(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<13>   |        11.564(R)|      SLOW  |         4.747(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<14>   |        14.133(R)|      SLOW  |         6.117(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<15>   |        12.191(R)|      SLOW  |         5.253(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<16>   |        12.843(R)|      SLOW  |         5.413(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<17>   |        12.517(R)|      SLOW  |         5.400(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<18>   |        12.442(R)|      SLOW  |         5.447(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<19>   |        11.981(R)|      SLOW  |         4.956(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<20>   |        13.378(R)|      SLOW  |         5.847(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<21>   |        12.374(R)|      SLOW  |         5.169(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<22>   |        13.412(R)|      SLOW  |         5.678(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<23>   |        12.350(R)|      SLOW  |         5.217(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<24>   |        13.354(R)|      SLOW  |         5.829(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<25>   |        11.889(R)|      SLOW  |         5.118(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<26>   |        13.161(R)|      SLOW  |         5.579(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<27>   |        12.994(R)|      SLOW  |         5.629(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<28>   |        13.521(R)|      SLOW  |         5.783(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<29>   |        13.440(R)|      SLOW  |         5.695(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<30>   |        13.314(R)|      SLOW  |         5.526(R)|      FAST  |clk_BUFGP         |   0.000|
+D_out<31>   |        12.521(R)|      SLOW  |         5.389(R)|      FAST  |clk_BUFGP         |   0.000|
+N           |        24.086(R)|      SLOW  |         5.549(R)|      FAST  |clk_BUFGP         |   0.000|
+V           |        16.687(R)|      SLOW  |         4.912(R)|      FAST  |clk_BUFGP         |   0.000|
+Z           |       101.114(R)|      SLOW  |         4.849(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   88.703|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DT<0>          |ALU_out<0>     |   89.475|
+DT<0>          |ALU_out<1>     |   89.649|
+DT<0>          |ALU_out<2>     |   89.826|
+DT<0>          |ALU_out<3>     |   90.528|
+DT<0>          |ALU_out<4>     |   89.449|
+DT<0>          |ALU_out<5>     |   90.323|
+DT<0>          |ALU_out<6>     |   89.746|
+DT<0>          |ALU_out<7>     |   90.453|
+DT<0>          |ALU_out<8>     |   90.299|
+DT<0>          |ALU_out<9>     |   90.114|
+DT<0>          |ALU_out<10>    |   91.316|
+DT<0>          |ALU_out<11>    |   90.927|
+DT<0>          |ALU_out<12>    |   90.201|
+DT<0>          |ALU_out<13>    |   91.012|
+DT<0>          |ALU_out<14>    |   90.027|
+DT<0>          |ALU_out<15>    |   90.568|
+DT<0>          |ALU_out<16>    |   90.843|
+DT<0>          |ALU_out<17>    |   90.931|
+DT<0>          |ALU_out<18>    |   91.126|
+DT<0>          |ALU_out<19>    |   90.530|
+DT<0>          |ALU_out<20>    |   91.383|
+DT<0>          |ALU_out<21>    |   91.236|
+DT<0>          |ALU_out<22>    |   91.795|
+DT<0>          |ALU_out<23>    |   91.496|
+DT<0>          |ALU_out<24>    |   91.625|
+DT<0>          |ALU_out<25>    |   90.961|
+DT<0>          |ALU_out<26>    |   91.722|
+DT<0>          |ALU_out<27>    |   91.616|
+DT<0>          |ALU_out<28>    |   91.794|
+DT<0>          |ALU_out<29>    |   91.799|
+DT<0>          |ALU_out<30>    |   91.360|
+DT<0>          |ALU_out<31>    |   91.240|
+DT<0>          |C              |   10.588|
+DT<0>          |D_out<0>       |    7.350|
+DT<0>          |N              |   17.974|
+DT<0>          |V              |   11.732|
+DT<0>          |Z              |   97.442|
+DT<1>          |ALU_out<0>     |   89.737|
+DT<1>          |ALU_out<1>     |   89.911|
+DT<1>          |ALU_out<2>     |   90.088|
+DT<1>          |ALU_out<3>     |   90.790|
+DT<1>          |ALU_out<4>     |   89.711|
+DT<1>          |ALU_out<5>     |   90.585|
+DT<1>          |ALU_out<6>     |   90.008|
+DT<1>          |ALU_out<7>     |   90.715|
+DT<1>          |ALU_out<8>     |   90.561|
+DT<1>          |ALU_out<9>     |   90.376|
+DT<1>          |ALU_out<10>    |   91.578|
+DT<1>          |ALU_out<11>    |   91.189|
+DT<1>          |ALU_out<12>    |   90.463|
+DT<1>          |ALU_out<13>    |   91.274|
+DT<1>          |ALU_out<14>    |   90.289|
+DT<1>          |ALU_out<15>    |   90.830|
+DT<1>          |ALU_out<16>    |   91.105|
+DT<1>          |ALU_out<17>    |   91.193|
+DT<1>          |ALU_out<18>    |   91.388|
+DT<1>          |ALU_out<19>    |   90.792|
+DT<1>          |ALU_out<20>    |   91.645|
+DT<1>          |ALU_out<21>    |   91.498|
+DT<1>          |ALU_out<22>    |   92.057|
+DT<1>          |ALU_out<23>    |   91.758|
+DT<1>          |ALU_out<24>    |   91.887|
+DT<1>          |ALU_out<25>    |   91.223|
+DT<1>          |ALU_out<26>    |   91.984|
+DT<1>          |ALU_out<27>    |   91.878|
+DT<1>          |ALU_out<28>    |   92.056|
+DT<1>          |ALU_out<29>    |   92.061|
+DT<1>          |ALU_out<30>    |   91.622|
+DT<1>          |ALU_out<31>    |   91.502|
+DT<1>          |C              |   10.268|
+DT<1>          |D_out<1>       |    7.896|
+DT<1>          |N              |   18.852|
+DT<1>          |V              |   11.412|
+DT<1>          |Z              |   97.700|
+DT<2>          |ALU_out<0>     |   89.175|
+DT<2>          |ALU_out<1>     |   89.349|
+DT<2>          |ALU_out<2>     |   89.526|
+DT<2>          |ALU_out<3>     |   90.228|
+DT<2>          |ALU_out<4>     |   89.149|
+DT<2>          |ALU_out<5>     |   90.023|
+DT<2>          |ALU_out<6>     |   89.446|
+DT<2>          |ALU_out<7>     |   90.153|
+DT<2>          |ALU_out<8>     |   89.999|
+DT<2>          |ALU_out<9>     |   89.814|
+DT<2>          |ALU_out<10>    |   91.016|
+DT<2>          |ALU_out<11>    |   90.627|
+DT<2>          |ALU_out<12>    |   89.901|
+DT<2>          |ALU_out<13>    |   90.712|
+DT<2>          |ALU_out<14>    |   89.727|
+DT<2>          |ALU_out<15>    |   90.268|
+DT<2>          |ALU_out<16>    |   90.543|
+DT<2>          |ALU_out<17>    |   90.631|
+DT<2>          |ALU_out<18>    |   90.826|
+DT<2>          |ALU_out<19>    |   90.230|
+DT<2>          |ALU_out<20>    |   91.083|
+DT<2>          |ALU_out<21>    |   90.936|
+DT<2>          |ALU_out<22>    |   91.495|
+DT<2>          |ALU_out<23>    |   91.196|
+DT<2>          |ALU_out<24>    |   91.325|
+DT<2>          |ALU_out<25>    |   90.661|
+DT<2>          |ALU_out<26>    |   91.422|
+DT<2>          |ALU_out<27>    |   91.316|
+DT<2>          |ALU_out<28>    |   91.494|
+DT<2>          |ALU_out<29>    |   91.499|
+DT<2>          |ALU_out<30>    |   91.060|
+DT<2>          |ALU_out<31>    |   90.940|
+DT<2>          |C              |    9.819|
+DT<2>          |D_out<2>       |    7.224|
+DT<2>          |N              |   17.667|
+DT<2>          |V              |   10.963|
+DT<2>          |Z              |   97.201|
+DT<3>          |ALU_out<0>     |   89.350|
+DT<3>          |ALU_out<1>     |   89.524|
+DT<3>          |ALU_out<2>     |   89.701|
+DT<3>          |ALU_out<3>     |   90.403|
+DT<3>          |ALU_out<4>     |   89.324|
+DT<3>          |ALU_out<5>     |   90.198|
+DT<3>          |ALU_out<6>     |   89.621|
+DT<3>          |ALU_out<7>     |   90.328|
+DT<3>          |ALU_out<8>     |   90.174|
+DT<3>          |ALU_out<9>     |   89.989|
+DT<3>          |ALU_out<10>    |   91.191|
+DT<3>          |ALU_out<11>    |   90.802|
+DT<3>          |ALU_out<12>    |   90.076|
+DT<3>          |ALU_out<13>    |   90.887|
+DT<3>          |ALU_out<14>    |   89.902|
+DT<3>          |ALU_out<15>    |   90.443|
+DT<3>          |ALU_out<16>    |   90.718|
+DT<3>          |ALU_out<17>    |   90.806|
+DT<3>          |ALU_out<18>    |   91.001|
+DT<3>          |ALU_out<19>    |   90.405|
+DT<3>          |ALU_out<20>    |   91.258|
+DT<3>          |ALU_out<21>    |   91.111|
+DT<3>          |ALU_out<22>    |   91.670|
+DT<3>          |ALU_out<23>    |   91.371|
+DT<3>          |ALU_out<24>    |   91.500|
+DT<3>          |ALU_out<25>    |   90.836|
+DT<3>          |ALU_out<26>    |   91.597|
+DT<3>          |ALU_out<27>    |   91.491|
+DT<3>          |ALU_out<28>    |   91.669|
+DT<3>          |ALU_out<29>    |   91.674|
+DT<3>          |ALU_out<30>    |   91.235|
+DT<3>          |ALU_out<31>    |   91.115|
+DT<3>          |C              |    9.751|
+DT<3>          |D_out<3>       |    7.853|
+DT<3>          |N              |   18.061|
+DT<3>          |V              |   10.895|
+DT<3>          |Z              |   97.110|
+DT<4>          |ALU_out<0>     |   88.742|
+DT<4>          |ALU_out<1>     |   88.916|
+DT<4>          |ALU_out<2>     |   89.093|
+DT<4>          |ALU_out<3>     |   89.795|
+DT<4>          |ALU_out<4>     |   88.716|
+DT<4>          |ALU_out<5>     |   89.590|
+DT<4>          |ALU_out<6>     |   89.013|
+DT<4>          |ALU_out<7>     |   89.720|
+DT<4>          |ALU_out<8>     |   89.566|
+DT<4>          |ALU_out<9>     |   89.381|
+DT<4>          |ALU_out<10>    |   90.583|
+DT<4>          |ALU_out<11>    |   90.194|
+DT<4>          |ALU_out<12>    |   89.468|
+DT<4>          |ALU_out<13>    |   90.279|
+DT<4>          |ALU_out<14>    |   89.294|
+DT<4>          |ALU_out<15>    |   89.835|
+DT<4>          |ALU_out<16>    |   90.110|
+DT<4>          |ALU_out<17>    |   90.198|
+DT<4>          |ALU_out<18>    |   90.393|
+DT<4>          |ALU_out<19>    |   89.797|
+DT<4>          |ALU_out<20>    |   90.650|
+DT<4>          |ALU_out<21>    |   90.503|
+DT<4>          |ALU_out<22>    |   91.062|
+DT<4>          |ALU_out<23>    |   90.763|
+DT<4>          |ALU_out<24>    |   90.892|
+DT<4>          |ALU_out<25>    |   90.228|
+DT<4>          |ALU_out<26>    |   90.989|
+DT<4>          |ALU_out<27>    |   90.883|
+DT<4>          |ALU_out<28>    |   91.061|
+DT<4>          |ALU_out<29>    |   91.066|
+DT<4>          |ALU_out<30>    |   90.627|
+DT<4>          |ALU_out<31>    |   90.507|
+DT<4>          |C              |    9.488|
+DT<4>          |D_out<4>       |    7.448|
+DT<4>          |N              |   17.744|
+DT<4>          |V              |   10.632|
+DT<4>          |Z              |   96.866|
+DT<5>          |ALU_out<0>     |   88.938|
+DT<5>          |ALU_out<1>     |   89.112|
+DT<5>          |ALU_out<2>     |   89.289|
+DT<5>          |ALU_out<3>     |   89.991|
+DT<5>          |ALU_out<4>     |   88.912|
+DT<5>          |ALU_out<5>     |   89.786|
+DT<5>          |ALU_out<6>     |   89.209|
+DT<5>          |ALU_out<7>     |   89.916|
+DT<5>          |ALU_out<8>     |   89.762|
+DT<5>          |ALU_out<9>     |   89.577|
+DT<5>          |ALU_out<10>    |   90.779|
+DT<5>          |ALU_out<11>    |   90.390|
+DT<5>          |ALU_out<12>    |   89.664|
+DT<5>          |ALU_out<13>    |   90.475|
+DT<5>          |ALU_out<14>    |   89.490|
+DT<5>          |ALU_out<15>    |   90.031|
+DT<5>          |ALU_out<16>    |   90.306|
+DT<5>          |ALU_out<17>    |   90.394|
+DT<5>          |ALU_out<18>    |   90.589|
+DT<5>          |ALU_out<19>    |   89.993|
+DT<5>          |ALU_out<20>    |   90.846|
+DT<5>          |ALU_out<21>    |   90.699|
+DT<5>          |ALU_out<22>    |   91.258|
+DT<5>          |ALU_out<23>    |   90.959|
+DT<5>          |ALU_out<24>    |   91.088|
+DT<5>          |ALU_out<25>    |   90.424|
+DT<5>          |ALU_out<26>    |   91.185|
+DT<5>          |ALU_out<27>    |   91.079|
+DT<5>          |ALU_out<28>    |   91.257|
+DT<5>          |ALU_out<29>    |   91.262|
+DT<5>          |ALU_out<30>    |   90.823|
+DT<5>          |ALU_out<31>    |   90.703|
+DT<5>          |C              |    9.538|
+DT<5>          |D_out<5>       |    7.316|
+DT<5>          |N              |   17.818|
+DT<5>          |V              |   10.860|
+DT<5>          |Z              |   97.148|
+DT<6>          |ALU_out<0>     |   89.037|
+DT<6>          |ALU_out<1>     |   89.211|
+DT<6>          |ALU_out<2>     |   89.388|
+DT<6>          |ALU_out<3>     |   90.090|
+DT<6>          |ALU_out<4>     |   89.011|
+DT<6>          |ALU_out<5>     |   89.885|
+DT<6>          |ALU_out<6>     |   89.308|
+DT<6>          |ALU_out<7>     |   90.015|
+DT<6>          |ALU_out<8>     |   89.861|
+DT<6>          |ALU_out<9>     |   89.676|
+DT<6>          |ALU_out<10>    |   90.878|
+DT<6>          |ALU_out<11>    |   90.489|
+DT<6>          |ALU_out<12>    |   89.763|
+DT<6>          |ALU_out<13>    |   90.574|
+DT<6>          |ALU_out<14>    |   89.589|
+DT<6>          |ALU_out<15>    |   90.130|
+DT<6>          |ALU_out<16>    |   90.405|
+DT<6>          |ALU_out<17>    |   90.493|
+DT<6>          |ALU_out<18>    |   90.688|
+DT<6>          |ALU_out<19>    |   90.092|
+DT<6>          |ALU_out<20>    |   90.945|
+DT<6>          |ALU_out<21>    |   90.798|
+DT<6>          |ALU_out<22>    |   91.357|
+DT<6>          |ALU_out<23>    |   91.058|
+DT<6>          |ALU_out<24>    |   91.187|
+DT<6>          |ALU_out<25>    |   90.523|
+DT<6>          |ALU_out<26>    |   91.284|
+DT<6>          |ALU_out<27>    |   91.178|
+DT<6>          |ALU_out<28>    |   91.356|
+DT<6>          |ALU_out<29>    |   91.361|
+DT<6>          |ALU_out<30>    |   90.922|
+DT<6>          |ALU_out<31>    |   90.802|
+DT<6>          |C              |    9.649|
+DT<6>          |D_out<6>       |    8.292|
+DT<6>          |N              |   18.432|
+DT<6>          |V              |   10.891|
+DT<6>          |Z              |   97.014|
+DT<7>          |ALU_out<0>     |   89.019|
+DT<7>          |ALU_out<1>     |   89.193|
+DT<7>          |ALU_out<2>     |   89.370|
+DT<7>          |ALU_out<3>     |   90.072|
+DT<7>          |ALU_out<4>     |   88.993|
+DT<7>          |ALU_out<5>     |   89.867|
+DT<7>          |ALU_out<6>     |   89.290|
+DT<7>          |ALU_out<7>     |   89.997|
+DT<7>          |ALU_out<8>     |   89.843|
+DT<7>          |ALU_out<9>     |   89.658|
+DT<7>          |ALU_out<10>    |   90.860|
+DT<7>          |ALU_out<11>    |   90.471|
+DT<7>          |ALU_out<12>    |   89.745|
+DT<7>          |ALU_out<13>    |   90.556|
+DT<7>          |ALU_out<14>    |   89.571|
+DT<7>          |ALU_out<15>    |   90.112|
+DT<7>          |ALU_out<16>    |   90.387|
+DT<7>          |ALU_out<17>    |   90.475|
+DT<7>          |ALU_out<18>    |   90.670|
+DT<7>          |ALU_out<19>    |   90.074|
+DT<7>          |ALU_out<20>    |   90.927|
+DT<7>          |ALU_out<21>    |   90.780|
+DT<7>          |ALU_out<22>    |   91.339|
+DT<7>          |ALU_out<23>    |   91.040|
+DT<7>          |ALU_out<24>    |   91.169|
+DT<7>          |ALU_out<25>    |   90.505|
+DT<7>          |ALU_out<26>    |   91.266|
+DT<7>          |ALU_out<27>    |   91.160|
+DT<7>          |ALU_out<28>    |   91.338|
+DT<7>          |ALU_out<29>    |   91.343|
+DT<7>          |ALU_out<30>    |   90.904|
+DT<7>          |ALU_out<31>    |   90.784|
+DT<7>          |C              |    9.453|
+DT<7>          |D_out<7>       |    7.324|
+DT<7>          |N              |   17.801|
+DT<7>          |V              |   10.925|
+DT<7>          |Z              |   97.069|
+DT<8>          |ALU_out<0>     |   88.747|
+DT<8>          |ALU_out<1>     |   88.921|
+DT<8>          |ALU_out<2>     |   89.098|
+DT<8>          |ALU_out<3>     |   89.800|
+DT<8>          |ALU_out<4>     |   88.721|
+DT<8>          |ALU_out<5>     |   89.595|
+DT<8>          |ALU_out<6>     |   89.018|
+DT<8>          |ALU_out<7>     |   89.725|
+DT<8>          |ALU_out<8>     |   89.571|
+DT<8>          |ALU_out<9>     |   89.386|
+DT<8>          |ALU_out<10>    |   90.588|
+DT<8>          |ALU_out<11>    |   90.199|
+DT<8>          |ALU_out<12>    |   89.473|
+DT<8>          |ALU_out<13>    |   90.284|
+DT<8>          |ALU_out<14>    |   89.299|
+DT<8>          |ALU_out<15>    |   89.840|
+DT<8>          |ALU_out<16>    |   90.115|
+DT<8>          |ALU_out<17>    |   90.203|
+DT<8>          |ALU_out<18>    |   90.398|
+DT<8>          |ALU_out<19>    |   89.802|
+DT<8>          |ALU_out<20>    |   90.655|
+DT<8>          |ALU_out<21>    |   90.508|
+DT<8>          |ALU_out<22>    |   91.067|
+DT<8>          |ALU_out<23>    |   90.768|
+DT<8>          |ALU_out<24>    |   90.897|
+DT<8>          |ALU_out<25>    |   90.233|
+DT<8>          |ALU_out<26>    |   90.994|
+DT<8>          |ALU_out<27>    |   90.888|
+DT<8>          |ALU_out<28>    |   91.066|
+DT<8>          |ALU_out<29>    |   91.071|
+DT<8>          |ALU_out<30>    |   90.632|
+DT<8>          |ALU_out<31>    |   90.512|
+DT<8>          |C              |    9.545|
+DT<8>          |D_out<8>       |    7.544|
+DT<8>          |N              |   18.206|
+DT<8>          |V              |   10.782|
+DT<8>          |Z              |   96.841|
+DT<9>          |ALU_out<0>     |   88.885|
+DT<9>          |ALU_out<1>     |   89.059|
+DT<9>          |ALU_out<2>     |   89.236|
+DT<9>          |ALU_out<3>     |   89.938|
+DT<9>          |ALU_out<4>     |   88.859|
+DT<9>          |ALU_out<5>     |   89.733|
+DT<9>          |ALU_out<6>     |   89.156|
+DT<9>          |ALU_out<7>     |   89.863|
+DT<9>          |ALU_out<8>     |   89.709|
+DT<9>          |ALU_out<9>     |   89.524|
+DT<9>          |ALU_out<10>    |   90.726|
+DT<9>          |ALU_out<11>    |   90.337|
+DT<9>          |ALU_out<12>    |   89.611|
+DT<9>          |ALU_out<13>    |   90.422|
+DT<9>          |ALU_out<14>    |   89.437|
+DT<9>          |ALU_out<15>    |   89.978|
+DT<9>          |ALU_out<16>    |   90.253|
+DT<9>          |ALU_out<17>    |   90.341|
+DT<9>          |ALU_out<18>    |   90.536|
+DT<9>          |ALU_out<19>    |   89.940|
+DT<9>          |ALU_out<20>    |   90.793|
+DT<9>          |ALU_out<21>    |   90.646|
+DT<9>          |ALU_out<22>    |   91.205|
+DT<9>          |ALU_out<23>    |   90.906|
+DT<9>          |ALU_out<24>    |   91.035|
+DT<9>          |ALU_out<25>    |   90.371|
+DT<9>          |ALU_out<26>    |   91.132|
+DT<9>          |ALU_out<27>    |   91.026|
+DT<9>          |ALU_out<28>    |   91.204|
+DT<9>          |ALU_out<29>    |   91.209|
+DT<9>          |ALU_out<30>    |   90.770|
+DT<9>          |ALU_out<31>    |   90.650|
+DT<9>          |C              |    9.872|
+DT<9>          |D_out<9>       |    8.171|
+DT<9>          |N              |   18.097|
+DT<9>          |V              |   11.016|
+DT<9>          |Z              |   97.014|
+DT<10>         |ALU_out<0>     |   89.095|
+DT<10>         |ALU_out<1>     |   89.269|
+DT<10>         |ALU_out<2>     |   89.446|
+DT<10>         |ALU_out<3>     |   90.148|
+DT<10>         |ALU_out<4>     |   89.069|
+DT<10>         |ALU_out<5>     |   89.943|
+DT<10>         |ALU_out<6>     |   89.366|
+DT<10>         |ALU_out<7>     |   90.073|
+DT<10>         |ALU_out<8>     |   89.919|
+DT<10>         |ALU_out<9>     |   89.734|
+DT<10>         |ALU_out<10>    |   90.936|
+DT<10>         |ALU_out<11>    |   90.547|
+DT<10>         |ALU_out<12>    |   89.821|
+DT<10>         |ALU_out<13>    |   90.632|
+DT<10>         |ALU_out<14>    |   89.647|
+DT<10>         |ALU_out<15>    |   90.188|
+DT<10>         |ALU_out<16>    |   90.463|
+DT<10>         |ALU_out<17>    |   90.551|
+DT<10>         |ALU_out<18>    |   90.746|
+DT<10>         |ALU_out<19>    |   90.150|
+DT<10>         |ALU_out<20>    |   91.003|
+DT<10>         |ALU_out<21>    |   90.856|
+DT<10>         |ALU_out<22>    |   91.415|
+DT<10>         |ALU_out<23>    |   91.116|
+DT<10>         |ALU_out<24>    |   91.245|
+DT<10>         |ALU_out<25>    |   90.581|
+DT<10>         |ALU_out<26>    |   91.342|
+DT<10>         |ALU_out<27>    |   91.236|
+DT<10>         |ALU_out<28>    |   91.414|
+DT<10>         |ALU_out<29>    |   91.419|
+DT<10>         |ALU_out<30>    |   90.980|
+DT<10>         |ALU_out<31>    |   90.860|
+DT<10>         |C              |    9.721|
+DT<10>         |D_out<10>      |    8.748|
+DT<10>         |N              |   18.207|
+DT<10>         |V              |   10.865|
+DT<10>         |Z              |   97.031|
+DT<11>         |ALU_out<0>     |   89.399|
+DT<11>         |ALU_out<1>     |   89.573|
+DT<11>         |ALU_out<2>     |   89.750|
+DT<11>         |ALU_out<3>     |   90.452|
+DT<11>         |ALU_out<4>     |   89.373|
+DT<11>         |ALU_out<5>     |   90.247|
+DT<11>         |ALU_out<6>     |   89.670|
+DT<11>         |ALU_out<7>     |   90.377|
+DT<11>         |ALU_out<8>     |   90.223|
+DT<11>         |ALU_out<9>     |   90.038|
+DT<11>         |ALU_out<10>    |   91.240|
+DT<11>         |ALU_out<11>    |   90.851|
+DT<11>         |ALU_out<12>    |   90.125|
+DT<11>         |ALU_out<13>    |   90.936|
+DT<11>         |ALU_out<14>    |   89.951|
+DT<11>         |ALU_out<15>    |   90.492|
+DT<11>         |ALU_out<16>    |   90.767|
+DT<11>         |ALU_out<17>    |   90.855|
+DT<11>         |ALU_out<18>    |   91.050|
+DT<11>         |ALU_out<19>    |   90.454|
+DT<11>         |ALU_out<20>    |   91.307|
+DT<11>         |ALU_out<21>    |   91.160|
+DT<11>         |ALU_out<22>    |   91.719|
+DT<11>         |ALU_out<23>    |   91.420|
+DT<11>         |ALU_out<24>    |   91.549|
+DT<11>         |ALU_out<25>    |   90.885|
+DT<11>         |ALU_out<26>    |   91.646|
+DT<11>         |ALU_out<27>    |   91.540|
+DT<11>         |ALU_out<28>    |   91.718|
+DT<11>         |ALU_out<29>    |   91.723|
+DT<11>         |ALU_out<30>    |   91.284|
+DT<11>         |ALU_out<31>    |   91.164|
+DT<11>         |C              |    9.345|
+DT<11>         |D_out<11>      |    7.579|
+DT<11>         |N              |   18.254|
+DT<11>         |V              |   10.489|
+DT<11>         |Z              |   97.189|
+DT<12>         |ALU_out<0>     |   88.955|
+DT<12>         |ALU_out<1>     |   89.129|
+DT<12>         |ALU_out<2>     |   89.306|
+DT<12>         |ALU_out<3>     |   90.008|
+DT<12>         |ALU_out<4>     |   88.929|
+DT<12>         |ALU_out<5>     |   89.803|
+DT<12>         |ALU_out<6>     |   89.226|
+DT<12>         |ALU_out<7>     |   89.933|
+DT<12>         |ALU_out<8>     |   89.779|
+DT<12>         |ALU_out<9>     |   89.594|
+DT<12>         |ALU_out<10>    |   90.796|
+DT<12>         |ALU_out<11>    |   90.407|
+DT<12>         |ALU_out<12>    |   89.681|
+DT<12>         |ALU_out<13>    |   90.492|
+DT<12>         |ALU_out<14>    |   89.507|
+DT<12>         |ALU_out<15>    |   90.048|
+DT<12>         |ALU_out<16>    |   90.323|
+DT<12>         |ALU_out<17>    |   90.411|
+DT<12>         |ALU_out<18>    |   90.606|
+DT<12>         |ALU_out<19>    |   90.010|
+DT<12>         |ALU_out<20>    |   90.863|
+DT<12>         |ALU_out<21>    |   90.716|
+DT<12>         |ALU_out<22>    |   91.275|
+DT<12>         |ALU_out<23>    |   90.976|
+DT<12>         |ALU_out<24>    |   91.105|
+DT<12>         |ALU_out<25>    |   90.441|
+DT<12>         |ALU_out<26>    |   91.202|
+DT<12>         |ALU_out<27>    |   91.096|
+DT<12>         |ALU_out<28>    |   91.274|
+DT<12>         |ALU_out<29>    |   91.279|
+DT<12>         |ALU_out<30>    |   90.840|
+DT<12>         |ALU_out<31>    |   90.720|
+DT<12>         |C              |    9.467|
+DT<12>         |D_out<12>      |    7.515|
+DT<12>         |N              |   18.220|
+DT<12>         |V              |   10.611|
+DT<12>         |Z              |   96.891|
+DT<13>         |ALU_out<0>     |   89.036|
+DT<13>         |ALU_out<1>     |   89.210|
+DT<13>         |ALU_out<2>     |   89.387|
+DT<13>         |ALU_out<3>     |   90.089|
+DT<13>         |ALU_out<4>     |   89.010|
+DT<13>         |ALU_out<5>     |   89.884|
+DT<13>         |ALU_out<6>     |   89.307|
+DT<13>         |ALU_out<7>     |   90.014|
+DT<13>         |ALU_out<8>     |   89.860|
+DT<13>         |ALU_out<9>     |   89.675|
+DT<13>         |ALU_out<10>    |   90.877|
+DT<13>         |ALU_out<11>    |   90.488|
+DT<13>         |ALU_out<12>    |   89.762|
+DT<13>         |ALU_out<13>    |   90.573|
+DT<13>         |ALU_out<14>    |   89.588|
+DT<13>         |ALU_out<15>    |   90.129|
+DT<13>         |ALU_out<16>    |   90.404|
+DT<13>         |ALU_out<17>    |   90.492|
+DT<13>         |ALU_out<18>    |   90.687|
+DT<13>         |ALU_out<19>    |   90.091|
+DT<13>         |ALU_out<20>    |   90.944|
+DT<13>         |ALU_out<21>    |   90.797|
+DT<13>         |ALU_out<22>    |   91.356|
+DT<13>         |ALU_out<23>    |   91.057|
+DT<13>         |ALU_out<24>    |   91.186|
+DT<13>         |ALU_out<25>    |   90.522|
+DT<13>         |ALU_out<26>    |   91.283|
+DT<13>         |ALU_out<27>    |   91.177|
+DT<13>         |ALU_out<28>    |   91.355|
+DT<13>         |ALU_out<29>    |   91.360|
+DT<13>         |ALU_out<30>    |   90.921|
+DT<13>         |ALU_out<31>    |   90.801|
+DT<13>         |C              |    9.319|
+DT<13>         |D_out<13>      |    7.216|
+DT<13>         |N              |   18.046|
+DT<13>         |V              |   10.843|
+DT<13>         |Z              |   96.981|
+DT<14>         |ALU_out<0>     |   89.307|
+DT<14>         |ALU_out<1>     |   89.481|
+DT<14>         |ALU_out<2>     |   89.658|
+DT<14>         |ALU_out<3>     |   90.360|
+DT<14>         |ALU_out<4>     |   89.281|
+DT<14>         |ALU_out<5>     |   90.155|
+DT<14>         |ALU_out<6>     |   89.578|
+DT<14>         |ALU_out<7>     |   90.285|
+DT<14>         |ALU_out<8>     |   90.131|
+DT<14>         |ALU_out<9>     |   89.946|
+DT<14>         |ALU_out<10>    |   91.148|
+DT<14>         |ALU_out<11>    |   90.759|
+DT<14>         |ALU_out<12>    |   90.033|
+DT<14>         |ALU_out<13>    |   90.844|
+DT<14>         |ALU_out<14>    |   89.859|
+DT<14>         |ALU_out<15>    |   90.400|
+DT<14>         |ALU_out<16>    |   90.675|
+DT<14>         |ALU_out<17>    |   90.763|
+DT<14>         |ALU_out<18>    |   90.958|
+DT<14>         |ALU_out<19>    |   90.362|
+DT<14>         |ALU_out<20>    |   91.215|
+DT<14>         |ALU_out<21>    |   91.068|
+DT<14>         |ALU_out<22>    |   91.627|
+DT<14>         |ALU_out<23>    |   91.328|
+DT<14>         |ALU_out<24>    |   91.457|
+DT<14>         |ALU_out<25>    |   90.793|
+DT<14>         |ALU_out<26>    |   91.554|
+DT<14>         |ALU_out<27>    |   91.448|
+DT<14>         |ALU_out<28>    |   91.626|
+DT<14>         |ALU_out<29>    |   91.631|
+DT<14>         |ALU_out<30>    |   91.192|
+DT<14>         |ALU_out<31>    |   91.072|
+DT<14>         |C              |    9.449|
+DT<14>         |D_out<14>      |    8.299|
+DT<14>         |N              |   18.123|
+DT<14>         |V              |   10.593|
+DT<14>         |Z              |   97.516|
+DT<15>         |ALU_out<0>     |   89.102|
+DT<15>         |ALU_out<1>     |   89.276|
+DT<15>         |ALU_out<2>     |   89.453|
+DT<15>         |ALU_out<3>     |   90.155|
+DT<15>         |ALU_out<4>     |   89.076|
+DT<15>         |ALU_out<5>     |   89.950|
+DT<15>         |ALU_out<6>     |   89.373|
+DT<15>         |ALU_out<7>     |   90.080|
+DT<15>         |ALU_out<8>     |   89.926|
+DT<15>         |ALU_out<9>     |   89.741|
+DT<15>         |ALU_out<10>    |   90.943|
+DT<15>         |ALU_out<11>    |   90.554|
+DT<15>         |ALU_out<12>    |   89.828|
+DT<15>         |ALU_out<13>    |   90.639|
+DT<15>         |ALU_out<14>    |   89.654|
+DT<15>         |ALU_out<15>    |   90.195|
+DT<15>         |ALU_out<16>    |   90.470|
+DT<15>         |ALU_out<17>    |   90.558|
+DT<15>         |ALU_out<18>    |   90.753|
+DT<15>         |ALU_out<19>    |   90.157|
+DT<15>         |ALU_out<20>    |   91.010|
+DT<15>         |ALU_out<21>    |   90.863|
+DT<15>         |ALU_out<22>    |   91.422|
+DT<15>         |ALU_out<23>    |   91.123|
+DT<15>         |ALU_out<24>    |   91.252|
+DT<15>         |ALU_out<25>    |   90.588|
+DT<15>         |ALU_out<26>    |   91.349|
+DT<15>         |ALU_out<27>    |   91.243|
+DT<15>         |ALU_out<28>    |   91.421|
+DT<15>         |ALU_out<29>    |   91.426|
+DT<15>         |ALU_out<30>    |   90.987|
+DT<15>         |ALU_out<31>    |   90.867|
+DT<15>         |C              |    9.227|
+DT<15>         |D_out<15>      |    7.263|
+DT<15>         |N              |   17.967|
+DT<15>         |V              |   10.852|
+DT<15>         |Z              |   97.048|
+DT<16>         |ALU_out<0>     |   89.316|
+DT<16>         |ALU_out<1>     |   89.490|
+DT<16>         |ALU_out<2>     |   89.667|
+DT<16>         |ALU_out<3>     |   90.369|
+DT<16>         |ALU_out<4>     |   89.290|
+DT<16>         |ALU_out<5>     |   90.164|
+DT<16>         |ALU_out<6>     |   89.587|
+DT<16>         |ALU_out<7>     |   90.294|
+DT<16>         |ALU_out<8>     |   90.140|
+DT<16>         |ALU_out<9>     |   89.955|
+DT<16>         |ALU_out<10>    |   91.157|
+DT<16>         |ALU_out<11>    |   90.768|
+DT<16>         |ALU_out<12>    |   90.042|
+DT<16>         |ALU_out<13>    |   90.853|
+DT<16>         |ALU_out<14>    |   89.868|
+DT<16>         |ALU_out<15>    |   90.409|
+DT<16>         |ALU_out<16>    |   90.684|
+DT<16>         |ALU_out<17>    |   90.772|
+DT<16>         |ALU_out<18>    |   90.967|
+DT<16>         |ALU_out<19>    |   90.371|
+DT<16>         |ALU_out<20>    |   91.224|
+DT<16>         |ALU_out<21>    |   91.077|
+DT<16>         |ALU_out<22>    |   91.636|
+DT<16>         |ALU_out<23>    |   91.337|
+DT<16>         |ALU_out<24>    |   91.466|
+DT<16>         |ALU_out<25>    |   90.802|
+DT<16>         |ALU_out<26>    |   91.563|
+DT<16>         |ALU_out<27>    |   91.457|
+DT<16>         |ALU_out<28>    |   91.635|
+DT<16>         |ALU_out<29>    |   91.640|
+DT<16>         |ALU_out<30>    |   91.201|
+DT<16>         |ALU_out<31>    |   91.081|
+DT<16>         |C              |    9.295|
+DT<16>         |D_out<16>      |    8.607|
+DT<16>         |N              |   17.445|
+DT<16>         |V              |   10.541|
+DT<16>         |Z              |   97.255|
+DT<17>         |ALU_out<0>     |   88.570|
+DT<17>         |ALU_out<1>     |   88.744|
+DT<17>         |ALU_out<2>     |   88.921|
+DT<17>         |ALU_out<3>     |   89.623|
+DT<17>         |ALU_out<4>     |   88.544|
+DT<17>         |ALU_out<5>     |   89.418|
+DT<17>         |ALU_out<6>     |   88.841|
+DT<17>         |ALU_out<7>     |   89.548|
+DT<17>         |ALU_out<8>     |   89.394|
+DT<17>         |ALU_out<9>     |   89.209|
+DT<17>         |ALU_out<10>    |   90.411|
+DT<17>         |ALU_out<11>    |   90.022|
+DT<17>         |ALU_out<12>    |   89.296|
+DT<17>         |ALU_out<13>    |   90.107|
+DT<17>         |ALU_out<14>    |   89.122|
+DT<17>         |ALU_out<15>    |   89.663|
+DT<17>         |ALU_out<16>    |   89.938|
+DT<17>         |ALU_out<17>    |   90.026|
+DT<17>         |ALU_out<18>    |   90.221|
+DT<17>         |ALU_out<19>    |   89.625|
+DT<17>         |ALU_out<20>    |   90.478|
+DT<17>         |ALU_out<21>    |   90.331|
+DT<17>         |ALU_out<22>    |   90.890|
+DT<17>         |ALU_out<23>    |   90.591|
+DT<17>         |ALU_out<24>    |   90.720|
+DT<17>         |ALU_out<25>    |   90.056|
+DT<17>         |ALU_out<26>    |   90.817|
+DT<17>         |ALU_out<27>    |   90.711|
+DT<17>         |ALU_out<28>    |   90.889|
+DT<17>         |ALU_out<29>    |   90.894|
+DT<17>         |ALU_out<30>    |   90.455|
+DT<17>         |ALU_out<31>    |   90.335|
+DT<17>         |C              |    9.102|
+DT<17>         |D_out<17>      |    7.141|
+DT<17>         |N              |   14.480|
+DT<17>         |V              |   10.331|
+DT<17>         |Z              |   96.675|
+DT<18>         |ALU_out<0>     |   89.181|
+DT<18>         |ALU_out<1>     |   89.355|
+DT<18>         |ALU_out<2>     |   89.532|
+DT<18>         |ALU_out<3>     |   90.234|
+DT<18>         |ALU_out<4>     |   89.155|
+DT<18>         |ALU_out<5>     |   90.029|
+DT<18>         |ALU_out<6>     |   89.452|
+DT<18>         |ALU_out<7>     |   90.159|
+DT<18>         |ALU_out<8>     |   90.005|
+DT<18>         |ALU_out<9>     |   89.820|
+DT<18>         |ALU_out<10>    |   91.022|
+DT<18>         |ALU_out<11>    |   90.633|
+DT<18>         |ALU_out<12>    |   89.907|
+DT<18>         |ALU_out<13>    |   90.718|
+DT<18>         |ALU_out<14>    |   89.733|
+DT<18>         |ALU_out<15>    |   90.274|
+DT<18>         |ALU_out<16>    |   90.549|
+DT<18>         |ALU_out<17>    |   90.637|
+DT<18>         |ALU_out<18>    |   90.832|
+DT<18>         |ALU_out<19>    |   90.236|
+DT<18>         |ALU_out<20>    |   91.089|
+DT<18>         |ALU_out<21>    |   90.942|
+DT<18>         |ALU_out<22>    |   91.501|
+DT<18>         |ALU_out<23>    |   91.202|
+DT<18>         |ALU_out<24>    |   91.331|
+DT<18>         |ALU_out<25>    |   90.667|
+DT<18>         |ALU_out<26>    |   91.428|
+DT<18>         |ALU_out<27>    |   91.322|
+DT<18>         |ALU_out<28>    |   91.500|
+DT<18>         |ALU_out<29>    |   91.505|
+DT<18>         |ALU_out<30>    |   91.066|
+DT<18>         |ALU_out<31>    |   90.946|
+DT<18>         |C              |    9.408|
+DT<18>         |D_out<18>      |    8.141|
+DT<18>         |N              |   15.081|
+DT<18>         |V              |   10.811|
+DT<18>         |Z              |   97.075|
+DT<19>         |ALU_out<0>     |   89.041|
+DT<19>         |ALU_out<1>     |   89.215|
+DT<19>         |ALU_out<2>     |   89.392|
+DT<19>         |ALU_out<3>     |   90.094|
+DT<19>         |ALU_out<4>     |   89.015|
+DT<19>         |ALU_out<5>     |   89.889|
+DT<19>         |ALU_out<6>     |   89.312|
+DT<19>         |ALU_out<7>     |   90.019|
+DT<19>         |ALU_out<8>     |   89.865|
+DT<19>         |ALU_out<9>     |   89.680|
+DT<19>         |ALU_out<10>    |   90.882|
+DT<19>         |ALU_out<11>    |   90.493|
+DT<19>         |ALU_out<12>    |   89.767|
+DT<19>         |ALU_out<13>    |   90.578|
+DT<19>         |ALU_out<14>    |   89.593|
+DT<19>         |ALU_out<15>    |   90.134|
+DT<19>         |ALU_out<16>    |   90.409|
+DT<19>         |ALU_out<17>    |   90.497|
+DT<19>         |ALU_out<18>    |   90.692|
+DT<19>         |ALU_out<19>    |   90.096|
+DT<19>         |ALU_out<20>    |   90.949|
+DT<19>         |ALU_out<21>    |   90.802|
+DT<19>         |ALU_out<22>    |   91.361|
+DT<19>         |ALU_out<23>    |   91.062|
+DT<19>         |ALU_out<24>    |   91.191|
+DT<19>         |ALU_out<25>    |   90.527|
+DT<19>         |ALU_out<26>    |   91.288|
+DT<19>         |ALU_out<27>    |   91.182|
+DT<19>         |ALU_out<28>    |   91.360|
+DT<19>         |ALU_out<29>    |   91.365|
+DT<19>         |ALU_out<30>    |   90.926|
+DT<19>         |ALU_out<31>    |   90.806|
+DT<19>         |C              |    8.918|
+DT<19>         |D_out<19>      |    8.191|
+DT<19>         |N              |   15.094|
+DT<19>         |V              |   10.543|
+DT<19>         |Z              |   96.987|
+DT<20>         |ALU_out<0>     |   88.970|
+DT<20>         |ALU_out<1>     |   89.144|
+DT<20>         |ALU_out<2>     |   89.321|
+DT<20>         |ALU_out<3>     |   90.023|
+DT<20>         |ALU_out<4>     |   88.944|
+DT<20>         |ALU_out<5>     |   89.818|
+DT<20>         |ALU_out<6>     |   89.241|
+DT<20>         |ALU_out<7>     |   89.948|
+DT<20>         |ALU_out<8>     |   89.794|
+DT<20>         |ALU_out<9>     |   89.609|
+DT<20>         |ALU_out<10>    |   90.811|
+DT<20>         |ALU_out<11>    |   90.422|
+DT<20>         |ALU_out<12>    |   89.696|
+DT<20>         |ALU_out<13>    |   90.507|
+DT<20>         |ALU_out<14>    |   89.522|
+DT<20>         |ALU_out<15>    |   90.063|
+DT<20>         |ALU_out<16>    |   90.338|
+DT<20>         |ALU_out<17>    |   90.426|
+DT<20>         |ALU_out<18>    |   90.621|
+DT<20>         |ALU_out<19>    |   90.025|
+DT<20>         |ALU_out<20>    |   90.878|
+DT<20>         |ALU_out<21>    |   90.731|
+DT<20>         |ALU_out<22>    |   91.290|
+DT<20>         |ALU_out<23>    |   90.991|
+DT<20>         |ALU_out<24>    |   91.120|
+DT<20>         |ALU_out<25>    |   90.456|
+DT<20>         |ALU_out<26>    |   91.217|
+DT<20>         |ALU_out<27>    |   91.111|
+DT<20>         |ALU_out<28>    |   91.289|
+DT<20>         |ALU_out<29>    |   91.294|
+DT<20>         |ALU_out<30>    |   90.855|
+DT<20>         |ALU_out<31>    |   90.735|
+DT<20>         |C              |    9.311|
+DT<20>         |D_out<20>      |    8.082|
+DT<20>         |N              |   15.132|
+DT<20>         |V              |   10.583|
+DT<20>         |Z              |   97.104|
+DT<21>         |ALU_out<0>     |   89.075|
+DT<21>         |ALU_out<1>     |   89.249|
+DT<21>         |ALU_out<2>     |   89.426|
+DT<21>         |ALU_out<3>     |   90.128|
+DT<21>         |ALU_out<4>     |   89.049|
+DT<21>         |ALU_out<5>     |   89.923|
+DT<21>         |ALU_out<6>     |   89.346|
+DT<21>         |ALU_out<7>     |   90.053|
+DT<21>         |ALU_out<8>     |   89.899|
+DT<21>         |ALU_out<9>     |   89.714|
+DT<21>         |ALU_out<10>    |   90.916|
+DT<21>         |ALU_out<11>    |   90.527|
+DT<21>         |ALU_out<12>    |   89.801|
+DT<21>         |ALU_out<13>    |   90.612|
+DT<21>         |ALU_out<14>    |   89.627|
+DT<21>         |ALU_out<15>    |   90.168|
+DT<21>         |ALU_out<16>    |   90.443|
+DT<21>         |ALU_out<17>    |   90.531|
+DT<21>         |ALU_out<18>    |   90.726|
+DT<21>         |ALU_out<19>    |   90.130|
+DT<21>         |ALU_out<20>    |   90.983|
+DT<21>         |ALU_out<21>    |   90.836|
+DT<21>         |ALU_out<22>    |   91.395|
+DT<21>         |ALU_out<23>    |   91.096|
+DT<21>         |ALU_out<24>    |   91.225|
+DT<21>         |ALU_out<25>    |   90.561|
+DT<21>         |ALU_out<26>    |   91.322|
+DT<21>         |ALU_out<27>    |   91.216|
+DT<21>         |ALU_out<28>    |   91.394|
+DT<21>         |ALU_out<29>    |   91.399|
+DT<21>         |ALU_out<30>    |   90.960|
+DT<21>         |ALU_out<31>    |   90.840|
+DT<21>         |C              |    9.408|
+DT<21>         |D_out<21>      |    7.671|
+DT<21>         |N              |   15.106|
+DT<21>         |V              |   10.552|
+DT<21>         |Z              |   97.017|
+DT<22>         |ALU_out<0>     |   88.651|
+DT<22>         |ALU_out<1>     |   88.825|
+DT<22>         |ALU_out<2>     |   89.002|
+DT<22>         |ALU_out<3>     |   89.704|
+DT<22>         |ALU_out<4>     |   88.625|
+DT<22>         |ALU_out<5>     |   89.499|
+DT<22>         |ALU_out<6>     |   88.922|
+DT<22>         |ALU_out<7>     |   89.629|
+DT<22>         |ALU_out<8>     |   89.475|
+DT<22>         |ALU_out<9>     |   89.290|
+DT<22>         |ALU_out<10>    |   90.492|
+DT<22>         |ALU_out<11>    |   90.103|
+DT<22>         |ALU_out<12>    |   89.377|
+DT<22>         |ALU_out<13>    |   90.188|
+DT<22>         |ALU_out<14>    |   89.203|
+DT<22>         |ALU_out<15>    |   89.744|
+DT<22>         |ALU_out<16>    |   90.019|
+DT<22>         |ALU_out<17>    |   90.107|
+DT<22>         |ALU_out<18>    |   90.302|
+DT<22>         |ALU_out<19>    |   89.706|
+DT<22>         |ALU_out<20>    |   90.559|
+DT<22>         |ALU_out<21>    |   90.412|
+DT<22>         |ALU_out<22>    |   90.971|
+DT<22>         |ALU_out<23>    |   90.672|
+DT<22>         |ALU_out<24>    |   90.801|
+DT<22>         |ALU_out<25>    |   90.137|
+DT<22>         |ALU_out<26>    |   90.898|
+DT<22>         |ALU_out<27>    |   90.792|
+DT<22>         |ALU_out<28>    |   90.970|
+DT<22>         |ALU_out<29>    |   90.975|
+DT<22>         |ALU_out<30>    |   90.536|
+DT<22>         |ALU_out<31>    |   90.416|
+DT<22>         |C              |    9.122|
+DT<22>         |D_out<22>      |    8.195|
+DT<22>         |N              |   15.062|
+DT<22>         |V              |   10.266|
+DT<22>         |Z              |   96.981|
+DT<23>         |ALU_out<0>     |   88.832|
+DT<23>         |ALU_out<1>     |   89.006|
+DT<23>         |ALU_out<2>     |   89.183|
+DT<23>         |ALU_out<3>     |   89.885|
+DT<23>         |ALU_out<4>     |   88.806|
+DT<23>         |ALU_out<5>     |   89.680|
+DT<23>         |ALU_out<6>     |   89.103|
+DT<23>         |ALU_out<7>     |   89.810|
+DT<23>         |ALU_out<8>     |   89.656|
+DT<23>         |ALU_out<9>     |   89.471|
+DT<23>         |ALU_out<10>    |   90.673|
+DT<23>         |ALU_out<11>    |   90.284|
+DT<23>         |ALU_out<12>    |   89.558|
+DT<23>         |ALU_out<13>    |   90.369|
+DT<23>         |ALU_out<14>    |   89.384|
+DT<23>         |ALU_out<15>    |   89.925|
+DT<23>         |ALU_out<16>    |   90.200|
+DT<23>         |ALU_out<17>    |   90.288|
+DT<23>         |ALU_out<18>    |   90.483|
+DT<23>         |ALU_out<19>    |   89.887|
+DT<23>         |ALU_out<20>    |   90.740|
+DT<23>         |ALU_out<21>    |   90.593|
+DT<23>         |ALU_out<22>    |   91.152|
+DT<23>         |ALU_out<23>    |   90.853|
+DT<23>         |ALU_out<24>    |   90.982|
+DT<23>         |ALU_out<25>    |   90.318|
+DT<23>         |ALU_out<26>    |   91.079|
+DT<23>         |ALU_out<27>    |   90.973|
+DT<23>         |ALU_out<28>    |   91.151|
+DT<23>         |ALU_out<29>    |   91.156|
+DT<23>         |ALU_out<30>    |   90.717|
+DT<23>         |ALU_out<31>    |   90.597|
+DT<23>         |C              |    9.097|
+DT<23>         |D_out<23>      |    8.028|
+DT<23>         |N              |   14.846|
+DT<23>         |V              |   10.349|
+DT<23>         |Z              |   96.883|
+DT<24>         |ALU_out<0>     |   89.038|
+DT<24>         |ALU_out<1>     |   89.212|
+DT<24>         |ALU_out<2>     |   89.389|
+DT<24>         |ALU_out<3>     |   90.091|
+DT<24>         |ALU_out<4>     |   89.012|
+DT<24>         |ALU_out<5>     |   89.886|
+DT<24>         |ALU_out<6>     |   89.309|
+DT<24>         |ALU_out<7>     |   90.016|
+DT<24>         |ALU_out<8>     |   89.862|
+DT<24>         |ALU_out<9>     |   89.677|
+DT<24>         |ALU_out<10>    |   90.879|
+DT<24>         |ALU_out<11>    |   90.490|
+DT<24>         |ALU_out<12>    |   89.764|
+DT<24>         |ALU_out<13>    |   90.575|
+DT<24>         |ALU_out<14>    |   89.590|
+DT<24>         |ALU_out<15>    |   90.131|
+DT<24>         |ALU_out<16>    |   90.406|
+DT<24>         |ALU_out<17>    |   90.494|
+DT<24>         |ALU_out<18>    |   90.689|
+DT<24>         |ALU_out<19>    |   90.093|
+DT<24>         |ALU_out<20>    |   90.946|
+DT<24>         |ALU_out<21>    |   90.799|
+DT<24>         |ALU_out<22>    |   91.358|
+DT<24>         |ALU_out<23>    |   91.059|
+DT<24>         |ALU_out<24>    |   91.188|
+DT<24>         |ALU_out<25>    |   90.524|
+DT<24>         |ALU_out<26>    |   91.285|
+DT<24>         |ALU_out<27>    |   91.179|
+DT<24>         |ALU_out<28>    |   91.357|
+DT<24>         |ALU_out<29>    |   91.362|
+DT<24>         |ALU_out<30>    |   90.923|
+DT<24>         |ALU_out<31>    |   90.803|
+DT<24>         |C              |    9.213|
+DT<24>         |D_out<24>      |    7.597|
+DT<24>         |N              |   14.687|
+DT<24>         |V              |   10.357|
+DT<24>         |Z              |   96.713|
+DT<25>         |ALU_out<0>     |   89.069|
+DT<25>         |ALU_out<1>     |   89.243|
+DT<25>         |ALU_out<2>     |   89.420|
+DT<25>         |ALU_out<3>     |   90.122|
+DT<25>         |ALU_out<4>     |   89.043|
+DT<25>         |ALU_out<5>     |   89.917|
+DT<25>         |ALU_out<6>     |   89.340|
+DT<25>         |ALU_out<7>     |   90.047|
+DT<25>         |ALU_out<8>     |   89.893|
+DT<25>         |ALU_out<9>     |   89.708|
+DT<25>         |ALU_out<10>    |   90.910|
+DT<25>         |ALU_out<11>    |   90.521|
+DT<25>         |ALU_out<12>    |   89.795|
+DT<25>         |ALU_out<13>    |   90.606|
+DT<25>         |ALU_out<14>    |   89.621|
+DT<25>         |ALU_out<15>    |   90.162|
+DT<25>         |ALU_out<16>    |   90.437|
+DT<25>         |ALU_out<17>    |   90.525|
+DT<25>         |ALU_out<18>    |   90.720|
+DT<25>         |ALU_out<19>    |   90.124|
+DT<25>         |ALU_out<20>    |   90.977|
+DT<25>         |ALU_out<21>    |   90.830|
+DT<25>         |ALU_out<22>    |   91.389|
+DT<25>         |ALU_out<23>    |   91.090|
+DT<25>         |ALU_out<24>    |   91.219|
+DT<25>         |ALU_out<25>    |   90.555|
+DT<25>         |ALU_out<26>    |   91.316|
+DT<25>         |ALU_out<27>    |   91.210|
+DT<25>         |ALU_out<28>    |   91.388|
+DT<25>         |ALU_out<29>    |   91.393|
+DT<25>         |ALU_out<30>    |   90.954|
+DT<25>         |ALU_out<31>    |   90.834|
+DT<25>         |C              |    9.168|
+DT<25>         |D_out<25>      |    7.188|
+DT<25>         |N              |   14.571|
+DT<25>         |V              |   10.312|
+DT<25>         |Z              |   96.931|
+DT<26>         |ALU_out<0>     |   88.803|
+DT<26>         |ALU_out<1>     |   88.977|
+DT<26>         |ALU_out<2>     |   89.154|
+DT<26>         |ALU_out<3>     |   89.856|
+DT<26>         |ALU_out<4>     |   88.777|
+DT<26>         |ALU_out<5>     |   89.651|
+DT<26>         |ALU_out<6>     |   89.074|
+DT<26>         |ALU_out<7>     |   89.781|
+DT<26>         |ALU_out<8>     |   89.627|
+DT<26>         |ALU_out<9>     |   89.442|
+DT<26>         |ALU_out<10>    |   90.644|
+DT<26>         |ALU_out<11>    |   90.255|
+DT<26>         |ALU_out<12>    |   89.529|
+DT<26>         |ALU_out<13>    |   90.340|
+DT<26>         |ALU_out<14>    |   89.355|
+DT<26>         |ALU_out<15>    |   89.896|
+DT<26>         |ALU_out<16>    |   90.171|
+DT<26>         |ALU_out<17>    |   90.259|
+DT<26>         |ALU_out<18>    |   90.454|
+DT<26>         |ALU_out<19>    |   89.858|
+DT<26>         |ALU_out<20>    |   90.711|
+DT<26>         |ALU_out<21>    |   90.564|
+DT<26>         |ALU_out<22>    |   91.123|
+DT<26>         |ALU_out<23>    |   90.824|
+DT<26>         |ALU_out<24>    |   90.953|
+DT<26>         |ALU_out<25>    |   90.289|
+DT<26>         |ALU_out<26>    |   91.050|
+DT<26>         |ALU_out<27>    |   90.944|
+DT<26>         |ALU_out<28>    |   91.122|
+DT<26>         |ALU_out<29>    |   91.127|
+DT<26>         |ALU_out<30>    |   90.688|
+DT<26>         |ALU_out<31>    |   90.568|
+DT<26>         |C              |    9.509|
+DT<26>         |D_out<26>      |    9.065|
+DT<26>         |N              |   15.513|
+DT<26>         |V              |   10.682|
+DT<26>         |Z              |   96.501|
+DT<27>         |ALU_out<0>     |   88.628|
+DT<27>         |ALU_out<1>     |   88.802|
+DT<27>         |ALU_out<2>     |   88.979|
+DT<27>         |ALU_out<3>     |   89.681|
+DT<27>         |ALU_out<4>     |   88.602|
+DT<27>         |ALU_out<5>     |   89.476|
+DT<27>         |ALU_out<6>     |   88.899|
+DT<27>         |ALU_out<7>     |   89.606|
+DT<27>         |ALU_out<8>     |   89.452|
+DT<27>         |ALU_out<9>     |   89.267|
+DT<27>         |ALU_out<10>    |   90.469|
+DT<27>         |ALU_out<11>    |   90.080|
+DT<27>         |ALU_out<12>    |   89.354|
+DT<27>         |ALU_out<13>    |   90.165|
+DT<27>         |ALU_out<14>    |   89.180|
+DT<27>         |ALU_out<15>    |   89.721|
+DT<27>         |ALU_out<16>    |   89.996|
+DT<27>         |ALU_out<17>    |   90.084|
+DT<27>         |ALU_out<18>    |   90.279|
+DT<27>         |ALU_out<19>    |   89.683|
+DT<27>         |ALU_out<20>    |   90.536|
+DT<27>         |ALU_out<21>    |   90.389|
+DT<27>         |ALU_out<22>    |   90.948|
+DT<27>         |ALU_out<23>    |   90.649|
+DT<27>         |ALU_out<24>    |   90.778|
+DT<27>         |ALU_out<25>    |   90.114|
+DT<27>         |ALU_out<26>    |   90.875|
+DT<27>         |ALU_out<27>    |   90.769|
+DT<27>         |ALU_out<28>    |   90.947|
+DT<27>         |ALU_out<29>    |   90.952|
+DT<27>         |ALU_out<30>    |   90.513|
+DT<27>         |ALU_out<31>    |   90.393|
+DT<27>         |C              |    8.750|
+DT<27>         |D_out<27>      |    8.010|
+DT<27>         |N              |   14.384|
+DT<27>         |V              |   10.375|
+DT<27>         |Z              |   96.716|
+DT<28>         |ALU_out<0>     |   89.277|
+DT<28>         |ALU_out<1>     |   89.451|
+DT<28>         |ALU_out<2>     |   89.628|
+DT<28>         |ALU_out<3>     |   90.330|
+DT<28>         |ALU_out<4>     |   89.251|
+DT<28>         |ALU_out<5>     |   90.125|
+DT<28>         |ALU_out<6>     |   89.548|
+DT<28>         |ALU_out<7>     |   90.255|
+DT<28>         |ALU_out<8>     |   90.101|
+DT<28>         |ALU_out<9>     |   89.916|
+DT<28>         |ALU_out<10>    |   91.118|
+DT<28>         |ALU_out<11>    |   90.729|
+DT<28>         |ALU_out<12>    |   90.003|
+DT<28>         |ALU_out<13>    |   90.814|
+DT<28>         |ALU_out<14>    |   89.829|
+DT<28>         |ALU_out<15>    |   90.370|
+DT<28>         |ALU_out<16>    |   90.645|
+DT<28>         |ALU_out<17>    |   90.733|
+DT<28>         |ALU_out<18>    |   90.928|
+DT<28>         |ALU_out<19>    |   90.332|
+DT<28>         |ALU_out<20>    |   91.185|
+DT<28>         |ALU_out<21>    |   91.038|
+DT<28>         |ALU_out<22>    |   91.597|
+DT<28>         |ALU_out<23>    |   91.298|
+DT<28>         |ALU_out<24>    |   91.427|
+DT<28>         |ALU_out<25>    |   90.763|
+DT<28>         |ALU_out<26>    |   91.524|
+DT<28>         |ALU_out<27>    |   91.418|
+DT<28>         |ALU_out<28>    |   91.596|
+DT<28>         |ALU_out<29>    |   91.601|
+DT<28>         |ALU_out<30>    |   91.162|
+DT<28>         |ALU_out<31>    |   91.042|
+DT<28>         |C              |    9.640|
+DT<28>         |D_out<28>      |    8.186|
+DT<28>         |N              |   15.053|
+DT<28>         |V              |   10.696|
+DT<28>         |Z              |   97.161|
+DT<29>         |ALU_out<0>     |   88.649|
+DT<29>         |ALU_out<1>     |   88.823|
+DT<29>         |ALU_out<2>     |   89.000|
+DT<29>         |ALU_out<3>     |   89.702|
+DT<29>         |ALU_out<4>     |   88.623|
+DT<29>         |ALU_out<5>     |   89.497|
+DT<29>         |ALU_out<6>     |   88.920|
+DT<29>         |ALU_out<7>     |   89.627|
+DT<29>         |ALU_out<8>     |   89.473|
+DT<29>         |ALU_out<9>     |   89.288|
+DT<29>         |ALU_out<10>    |   90.490|
+DT<29>         |ALU_out<11>    |   90.101|
+DT<29>         |ALU_out<12>    |   89.375|
+DT<29>         |ALU_out<13>    |   90.186|
+DT<29>         |ALU_out<14>    |   89.201|
+DT<29>         |ALU_out<15>    |   89.742|
+DT<29>         |ALU_out<16>    |   90.017|
+DT<29>         |ALU_out<17>    |   90.105|
+DT<29>         |ALU_out<18>    |   90.300|
+DT<29>         |ALU_out<19>    |   89.704|
+DT<29>         |ALU_out<20>    |   90.557|
+DT<29>         |ALU_out<21>    |   90.410|
+DT<29>         |ALU_out<22>    |   90.969|
+DT<29>         |ALU_out<23>    |   90.670|
+DT<29>         |ALU_out<24>    |   90.799|
+DT<29>         |ALU_out<25>    |   90.135|
+DT<29>         |ALU_out<26>    |   90.896|
+DT<29>         |ALU_out<27>    |   90.790|
+DT<29>         |ALU_out<28>    |   90.968|
+DT<29>         |ALU_out<29>    |   90.973|
+DT<29>         |ALU_out<30>    |   90.534|
+DT<29>         |ALU_out<31>    |   90.414|
+DT<29>         |C              |    9.123|
+DT<29>         |D_out<29>      |    8.038|
+DT<29>         |N              |   14.820|
+DT<29>         |V              |   10.286|
+DT<29>         |Z              |   96.642|
+DT<30>         |ALU_out<0>     |   88.309|
+DT<30>         |ALU_out<1>     |   88.483|
+DT<30>         |ALU_out<2>     |   88.660|
+DT<30>         |ALU_out<3>     |   89.362|
+DT<30>         |ALU_out<4>     |   88.283|
+DT<30>         |ALU_out<5>     |   89.157|
+DT<30>         |ALU_out<6>     |   88.580|
+DT<30>         |ALU_out<7>     |   89.287|
+DT<30>         |ALU_out<8>     |   89.133|
+DT<30>         |ALU_out<9>     |   88.948|
+DT<30>         |ALU_out<10>    |   90.150|
+DT<30>         |ALU_out<11>    |   89.761|
+DT<30>         |ALU_out<12>    |   89.035|
+DT<30>         |ALU_out<13>    |   89.846|
+DT<30>         |ALU_out<14>    |   88.861|
+DT<30>         |ALU_out<15>    |   89.402|
+DT<30>         |ALU_out<16>    |   89.677|
+DT<30>         |ALU_out<17>    |   89.765|
+DT<30>         |ALU_out<18>    |   89.960|
+DT<30>         |ALU_out<19>    |   89.364|
+DT<30>         |ALU_out<20>    |   90.217|
+DT<30>         |ALU_out<21>    |   90.070|
+DT<30>         |ALU_out<22>    |   90.629|
+DT<30>         |ALU_out<23>    |   90.330|
+DT<30>         |ALU_out<24>    |   90.459|
+DT<30>         |ALU_out<25>    |   89.795|
+DT<30>         |ALU_out<26>    |   90.556|
+DT<30>         |ALU_out<27>    |   90.450|
+DT<30>         |ALU_out<28>    |   90.628|
+DT<30>         |ALU_out<29>    |   90.633|
+DT<30>         |ALU_out<30>    |   90.194|
+DT<30>         |ALU_out<31>    |   90.074|
+DT<30>         |C              |    8.915|
+DT<30>         |D_out<30>      |    8.106|
+DT<30>         |N              |   15.263|
+DT<30>         |V              |    9.934|
+DT<30>         |Z              |   96.506|
+DT<31>         |ALU_out<0>     |   88.770|
+DT<31>         |ALU_out<1>     |   88.944|
+DT<31>         |ALU_out<2>     |   89.121|
+DT<31>         |ALU_out<3>     |   89.823|
+DT<31>         |ALU_out<4>     |   88.744|
+DT<31>         |ALU_out<5>     |   89.618|
+DT<31>         |ALU_out<6>     |   89.041|
+DT<31>         |ALU_out<7>     |   89.748|
+DT<31>         |ALU_out<8>     |   89.594|
+DT<31>         |ALU_out<9>     |   89.409|
+DT<31>         |ALU_out<10>    |   90.611|
+DT<31>         |ALU_out<11>    |   90.222|
+DT<31>         |ALU_out<12>    |   89.496|
+DT<31>         |ALU_out<13>    |   90.307|
+DT<31>         |ALU_out<14>    |   89.322|
+DT<31>         |ALU_out<15>    |   89.863|
+DT<31>         |ALU_out<16>    |   90.138|
+DT<31>         |ALU_out<17>    |   90.226|
+DT<31>         |ALU_out<18>    |   90.421|
+DT<31>         |ALU_out<19>    |   89.825|
+DT<31>         |ALU_out<20>    |   90.678|
+DT<31>         |ALU_out<21>    |   90.531|
+DT<31>         |ALU_out<22>    |   91.090|
+DT<31>         |ALU_out<23>    |   90.791|
+DT<31>         |ALU_out<24>    |   90.920|
+DT<31>         |ALU_out<25>    |   90.256|
+DT<31>         |ALU_out<26>    |   91.017|
+DT<31>         |ALU_out<27>    |   90.911|
+DT<31>         |ALU_out<28>    |   91.089|
+DT<31>         |ALU_out<29>    |   91.094|
+DT<31>         |ALU_out<30>    |   90.655|
+DT<31>         |ALU_out<31>    |   90.535|
+DT<31>         |C              |    9.799|
+DT<31>         |D_out<31>      |    9.323|
+DT<31>         |N              |   16.468|
+DT<31>         |V              |   10.367|
+DT<31>         |Z              |   96.453|
+DY<0>          |ALU_out<0>     |    8.766|
+DY<1>          |ALU_out<1>     |    9.500|
+DY<2>          |ALU_out<2>     |    8.928|
+DY<3>          |ALU_out<3>     |    9.464|
+DY<4>          |ALU_out<4>     |    9.092|
+DY<5>          |ALU_out<5>     |    9.230|
+DY<6>          |ALU_out<6>     |    8.886|
+DY<7>          |ALU_out<7>     |    9.110|
+DY<8>          |ALU_out<8>     |    9.798|
+DY<9>          |ALU_out<9>     |    9.358|
+DY<10>         |ALU_out<10>    |    9.805|
+DY<11>         |ALU_out<11>    |    9.904|
+DY<12>         |ALU_out<12>    |    8.504|
+DY<13>         |ALU_out<13>    |    9.354|
+DY<14>         |ALU_out<14>    |    8.050|
+DY<15>         |ALU_out<15>    |    9.098|
+DY<16>         |ALU_out<16>    |    9.385|
+DY<17>         |ALU_out<17>    |    9.800|
+DY<18>         |ALU_out<18>    |    9.461|
+DY<19>         |ALU_out<19>    |   10.296|
+DY<20>         |ALU_out<20>    |    9.266|
+DY<21>         |ALU_out<21>    |    9.760|
+DY<22>         |ALU_out<22>    |    9.943|
+DY<23>         |ALU_out<23>    |    9.699|
+DY<24>         |ALU_out<24>    |   10.173|
+DY<25>         |ALU_out<25>    |    9.652|
+DY<26>         |ALU_out<26>    |   10.165|
+DY<27>         |ALU_out<27>    |    9.930|
+DY<28>         |ALU_out<28>    |   10.348|
+DY<29>         |ALU_out<29>    |   10.112|
+DY<30>         |ALU_out<30>    |   10.258|
+DY<31>         |ALU_out<31>    |    8.996|
+FS<0>          |ALU_out<0>     |   15.475|
+FS<0>          |ALU_out<1>     |   14.426|
+FS<0>          |ALU_out<2>     |   16.918|
+FS<0>          |ALU_out<3>     |   15.396|
+FS<0>          |ALU_out<4>     |   14.532|
+FS<0>          |ALU_out<5>     |   15.670|
+FS<0>          |ALU_out<6>     |   15.352|
+FS<0>          |ALU_out<7>     |   15.722|
+FS<0>          |ALU_out<8>     |   15.754|
+FS<0>          |ALU_out<9>     |   14.500|
+FS<0>          |ALU_out<10>    |   15.343|
+FS<0>          |ALU_out<11>    |   15.873|
+FS<0>          |ALU_out<12>    |   15.038|
+FS<0>          |ALU_out<13>    |   15.296|
+FS<0>          |ALU_out<14>    |   15.045|
+FS<0>          |ALU_out<15>    |   15.447|
+FS<0>          |ALU_out<16>    |   14.619|
+FS<0>          |ALU_out<17>    |   15.875|
+FS<0>          |ALU_out<18>    |   15.041|
+FS<0>          |ALU_out<19>    |   16.042|
+FS<0>          |ALU_out<20>    |   16.086|
+FS<0>          |ALU_out<21>    |   15.909|
+FS<0>          |ALU_out<22>    |   16.337|
+FS<0>          |ALU_out<23>    |   15.368|
+FS<0>          |ALU_out<24>    |   15.692|
+FS<0>          |ALU_out<25>    |   15.562|
+FS<0>          |ALU_out<26>    |   15.349|
+FS<0>          |ALU_out<27>    |   16.577|
+FS<0>          |ALU_out<28>    |   17.460|
+FS<0>          |ALU_out<29>    |   16.099|
+FS<0>          |ALU_out<30>    |   17.003|
+FS<0>          |ALU_out<31>    |   15.516|
+FS<0>          |C              |    9.668|
+FS<0>          |N              |   12.810|
+FS<0>          |V              |    9.826|
+FS<0>          |Z              |   16.346|
+FS<1>          |ALU_out<0>     |   14.417|
+FS<1>          |ALU_out<1>     |   14.151|
+FS<1>          |ALU_out<2>     |   16.426|
+FS<1>          |ALU_out<3>     |   14.438|
+FS<1>          |ALU_out<4>     |   14.149|
+FS<1>          |ALU_out<5>     |   15.072|
+FS<1>          |ALU_out<6>     |   14.460|
+FS<1>          |ALU_out<7>     |   14.301|
+FS<1>          |ALU_out<8>     |   15.351|
+FS<1>          |ALU_out<9>     |   13.928|
+FS<1>          |ALU_out<10>    |   14.754|
+FS<1>          |ALU_out<11>    |   15.262|
+FS<1>          |ALU_out<12>    |   14.484|
+FS<1>          |ALU_out<13>    |   14.943|
+FS<1>          |ALU_out<14>    |   14.506|
+FS<1>          |ALU_out<15>    |   15.017|
+FS<1>          |ALU_out<16>    |   13.602|
+FS<1>          |ALU_out<17>    |   14.832|
+FS<1>          |ALU_out<18>    |   13.374|
+FS<1>          |ALU_out<19>    |   14.350|
+FS<1>          |ALU_out<20>    |   14.758|
+FS<1>          |ALU_out<21>    |   15.124|
+FS<1>          |ALU_out<22>    |   14.863|
+FS<1>          |ALU_out<23>    |   14.487|
+FS<1>          |ALU_out<24>    |   14.723|
+FS<1>          |ALU_out<25>    |   14.673|
+FS<1>          |ALU_out<26>    |   13.778|
+FS<1>          |ALU_out<27>    |   15.439|
+FS<1>          |ALU_out<28>    |   15.485|
+FS<1>          |ALU_out<29>    |   15.089|
+FS<1>          |ALU_out<30>    |   16.309|
+FS<1>          |ALU_out<31>    |   15.106|
+FS<1>          |C              |    9.242|
+FS<1>          |N              |   12.400|
+FS<1>          |V              |   10.144|
+FS<1>          |Z              |   15.854|
+FS<2>          |ALU_out<0>     |   12.720|
+FS<2>          |ALU_out<1>     |   14.046|
+FS<2>          |ALU_out<2>     |   14.693|
+FS<2>          |ALU_out<3>     |   13.774|
+FS<2>          |ALU_out<4>     |   12.496|
+FS<2>          |ALU_out<5>     |   14.148|
+FS<2>          |ALU_out<6>     |   13.518|
+FS<2>          |ALU_out<7>     |   13.954|
+FS<2>          |ALU_out<8>     |   15.398|
+FS<2>          |ALU_out<9>     |   13.157|
+FS<2>          |ALU_out<10>    |   14.859|
+FS<2>          |ALU_out<11>    |   14.699|
+FS<2>          |ALU_out<12>    |   14.279|
+FS<2>          |ALU_out<13>    |   15.048|
+FS<2>          |ALU_out<14>    |   14.611|
+FS<2>          |ALU_out<15>    |   15.122|
+FS<2>          |ALU_out<16>    |   13.709|
+FS<2>          |ALU_out<17>    |   14.965|
+FS<2>          |ALU_out<18>    |   14.131|
+FS<2>          |ALU_out<19>    |   15.132|
+FS<2>          |ALU_out<20>    |   15.176|
+FS<2>          |ALU_out<21>    |   14.999|
+FS<2>          |ALU_out<22>    |   15.427|
+FS<2>          |ALU_out<23>    |   14.458|
+FS<2>          |ALU_out<24>    |   14.782|
+FS<2>          |ALU_out<25>    |   14.652|
+FS<2>          |ALU_out<26>    |   14.439|
+FS<2>          |ALU_out<27>    |   15.667|
+FS<2>          |ALU_out<28>    |   16.550|
+FS<2>          |ALU_out<29>    |   15.045|
+FS<2>          |ALU_out<30>    |   16.093|
+FS<2>          |ALU_out<31>    |   15.127|
+FS<2>          |N              |   12.421|
+FS<2>          |Z              |   14.155|
+FS<3>          |ALU_out<0>     |   13.756|
+FS<3>          |ALU_out<1>     |   13.344|
+FS<3>          |ALU_out<2>     |   12.418|
+FS<3>          |ALU_out<3>     |   12.390|
+FS<3>          |ALU_out<4>     |   11.756|
+FS<3>          |ALU_out<5>     |   12.486|
+FS<3>          |ALU_out<6>     |   12.445|
+FS<3>          |ALU_out<7>     |   12.077|
+FS<3>          |ALU_out<8>     |   12.930|
+FS<3>          |ALU_out<9>     |   11.885|
+FS<3>          |ALU_out<10>    |   15.442|
+FS<3>          |ALU_out<11>    |   15.218|
+FS<3>          |ALU_out<12>    |   14.299|
+FS<3>          |ALU_out<13>    |   15.631|
+FS<3>          |ALU_out<14>    |   15.194|
+FS<3>          |ALU_out<15>    |   15.705|
+FS<3>          |ALU_out<16>    |   14.273|
+FS<3>          |ALU_out<17>    |   15.520|
+FS<3>          |ALU_out<18>    |   13.744|
+FS<3>          |ALU_out<19>    |   15.038|
+FS<3>          |ALU_out<20>    |   14.618|
+FS<3>          |ALU_out<21>    |   14.733|
+FS<3>          |ALU_out<22>    |   15.354|
+FS<3>          |ALU_out<23>    |   14.151|
+FS<3>          |ALU_out<24>    |   14.714|
+FS<3>          |ALU_out<25>    |   14.687|
+FS<3>          |ALU_out<26>    |   14.428|
+FS<3>          |ALU_out<27>    |   15.146|
+FS<3>          |ALU_out<28>    |   16.167|
+FS<3>          |ALU_out<29>    |   15.242|
+FS<3>          |ALU_out<30>    |   15.603|
+FS<3>          |ALU_out<31>    |   15.427|
+FS<3>          |C              |   10.132|
+FS<3>          |N              |   12.721|
+FS<3>          |V              |    8.830|
+FS<3>          |Z              |   14.676|
+FS<4>          |ALU_out<0>     |   14.354|
+FS<4>          |ALU_out<1>     |   14.977|
+FS<4>          |ALU_out<2>     |   16.011|
+FS<4>          |ALU_out<3>     |   15.403|
+FS<4>          |ALU_out<4>     |   14.594|
+FS<4>          |ALU_out<5>     |   16.221|
+FS<4>          |ALU_out<6>     |   14.671|
+FS<4>          |ALU_out<7>     |   15.282|
+FS<4>          |ALU_out<8>     |   16.194|
+FS<4>          |ALU_out<9>     |   14.711|
+FS<4>          |ALU_out<10>    |   15.894|
+FS<4>          |ALU_out<11>    |   16.409|
+FS<4>          |ALU_out<12>    |   15.073|
+FS<4>          |ALU_out<13>    |   15.958|
+FS<4>          |ALU_out<14>    |   15.581|
+FS<4>          |ALU_out<15>    |   16.032|
+FS<4>          |ALU_out<16>    |   14.584|
+FS<4>          |ALU_out<17>    |   15.847|
+FS<4>          |ALU_out<18>    |   14.071|
+FS<4>          |ALU_out<19>    |   15.365|
+FS<4>          |ALU_out<20>    |   14.685|
+FS<4>          |ALU_out<21>    |   15.060|
+FS<4>          |ALU_out<22>    |   15.681|
+FS<4>          |ALU_out<23>    |   14.478|
+FS<4>          |ALU_out<24>    |   15.041|
+FS<4>          |ALU_out<25>    |   15.014|
+FS<4>          |ALU_out<26>    |   14.739|
+FS<4>          |ALU_out<27>    |   15.473|
+FS<4>          |ALU_out<28>    |   16.478|
+FS<4>          |ALU_out<29>    |   15.553|
+FS<4>          |ALU_out<30>    |   15.930|
+FS<4>          |ALU_out<31>    |   15.764|
+FS<4>          |C              |   10.469|
+FS<4>          |N              |   13.058|
+FS<4>          |V              |    9.332|
+FS<4>          |Z              |   15.439|
+PC_in<0>       |ALU_out<0>     |    7.342|
+PC_in<1>       |ALU_out<1>     |    8.277|
+PC_in<2>       |ALU_out<2>     |    8.421|
+PC_in<3>       |ALU_out<3>     |    8.963|
+PC_in<4>       |ALU_out<4>     |    8.263|
+PC_in<5>       |ALU_out<5>     |    8.415|
+PC_in<6>       |ALU_out<6>     |    8.502|
+PC_in<7>       |ALU_out<7>     |    7.864|
+PC_in<8>       |ALU_out<8>     |    8.743|
+PC_in<9>       |ALU_out<9>     |    8.860|
+PC_in<10>      |ALU_out<10>    |    8.918|
+PC_in<11>      |ALU_out<11>    |    9.106|
+PC_in<12>      |ALU_out<12>    |    8.467|
+PC_in<13>      |ALU_out<13>    |    9.063|
+PC_in<14>      |ALU_out<14>    |    8.870|
+PC_in<15>      |ALU_out<15>    |    9.747|
+PC_in<16>      |ALU_out<16>    |    8.979|
+PC_in<17>      |ALU_out<17>    |    9.597|
+PC_in<18>      |ALU_out<18>    |    9.218|
+PC_in<19>      |ALU_out<19>    |    9.286|
+PC_in<20>      |ALU_out<20>    |    9.169|
+PC_in<21>      |ALU_out<21>    |    9.604|
+PC_in<22>      |ALU_out<22>    |    9.283|
+PC_in<23>      |ALU_out<23>    |    9.299|
+PC_in<24>      |ALU_out<24>    |    9.201|
+PC_in<25>      |ALU_out<25>    |    9.265|
+PC_in<26>      |ALU_out<26>    |    9.819|
+PC_in<27>      |ALU_out<27>    |   10.003|
+PC_in<28>      |ALU_out<28>    |    9.477|
+PC_in<29>      |ALU_out<29>    |    9.959|
+PC_in<30>      |ALU_out<30>    |    9.726|
+PC_in<31>      |ALU_out<31>    |    9.542|
+S_Addr<0>      |ALU_out<0>     |   93.337|
+S_Addr<0>      |ALU_out<1>     |   93.511|
+S_Addr<0>      |ALU_out<2>     |   93.688|
+S_Addr<0>      |ALU_out<3>     |   94.390|
+S_Addr<0>      |ALU_out<4>     |   93.311|
+S_Addr<0>      |ALU_out<5>     |   94.185|
+S_Addr<0>      |ALU_out<6>     |   93.608|
+S_Addr<0>      |ALU_out<7>     |   94.315|
+S_Addr<0>      |ALU_out<8>     |   94.161|
+S_Addr<0>      |ALU_out<9>     |   93.976|
+S_Addr<0>      |ALU_out<10>    |   95.178|
+S_Addr<0>      |ALU_out<11>    |   94.789|
+S_Addr<0>      |ALU_out<12>    |   94.063|
+S_Addr<0>      |ALU_out<13>    |   94.874|
+S_Addr<0>      |ALU_out<14>    |   93.889|
+S_Addr<0>      |ALU_out<15>    |   94.430|
+S_Addr<0>      |ALU_out<16>    |   94.705|
+S_Addr<0>      |ALU_out<17>    |   94.793|
+S_Addr<0>      |ALU_out<18>    |   94.988|
+S_Addr<0>      |ALU_out<19>    |   94.392|
+S_Addr<0>      |ALU_out<20>    |   95.245|
+S_Addr<0>      |ALU_out<21>    |   95.098|
+S_Addr<0>      |ALU_out<22>    |   95.657|
+S_Addr<0>      |ALU_out<23>    |   95.358|
+S_Addr<0>      |ALU_out<24>    |   95.487|
+S_Addr<0>      |ALU_out<25>    |   94.823|
+S_Addr<0>      |ALU_out<26>    |   95.584|
+S_Addr<0>      |ALU_out<27>    |   95.478|
+S_Addr<0>      |ALU_out<28>    |   95.656|
+S_Addr<0>      |ALU_out<29>    |   95.661|
+S_Addr<0>      |ALU_out<30>    |   95.222|
+S_Addr<0>      |ALU_out<31>    |   95.102|
+S_Addr<0>      |C              |   16.776|
+S_Addr<0>      |N              |   21.177|
+S_Addr<0>      |V              |   17.597|
+S_Addr<0>      |Z              |  101.524|
+S_Addr<1>      |ALU_out<0>     |   95.429|
+S_Addr<1>      |ALU_out<1>     |   95.603|
+S_Addr<1>      |ALU_out<2>     |   95.780|
+S_Addr<1>      |ALU_out<3>     |   96.482|
+S_Addr<1>      |ALU_out<4>     |   95.403|
+S_Addr<1>      |ALU_out<5>     |   96.277|
+S_Addr<1>      |ALU_out<6>     |   95.700|
+S_Addr<1>      |ALU_out<7>     |   96.407|
+S_Addr<1>      |ALU_out<8>     |   96.253|
+S_Addr<1>      |ALU_out<9>     |   96.068|
+S_Addr<1>      |ALU_out<10>    |   97.270|
+S_Addr<1>      |ALU_out<11>    |   96.881|
+S_Addr<1>      |ALU_out<12>    |   96.155|
+S_Addr<1>      |ALU_out<13>    |   96.966|
+S_Addr<1>      |ALU_out<14>    |   95.981|
+S_Addr<1>      |ALU_out<15>    |   96.522|
+S_Addr<1>      |ALU_out<16>    |   96.797|
+S_Addr<1>      |ALU_out<17>    |   96.885|
+S_Addr<1>      |ALU_out<18>    |   97.080|
+S_Addr<1>      |ALU_out<19>    |   96.484|
+S_Addr<1>      |ALU_out<20>    |   97.337|
+S_Addr<1>      |ALU_out<21>    |   97.190|
+S_Addr<1>      |ALU_out<22>    |   97.749|
+S_Addr<1>      |ALU_out<23>    |   97.450|
+S_Addr<1>      |ALU_out<24>    |   97.579|
+S_Addr<1>      |ALU_out<25>    |   96.915|
+S_Addr<1>      |ALU_out<26>    |   97.676|
+S_Addr<1>      |ALU_out<27>    |   97.570|
+S_Addr<1>      |ALU_out<28>    |   97.748|
+S_Addr<1>      |ALU_out<29>    |   97.753|
+S_Addr<1>      |ALU_out<30>    |   97.314|
+S_Addr<1>      |ALU_out<31>    |   97.194|
+S_Addr<1>      |C              |   17.442|
+S_Addr<1>      |N              |   22.231|
+S_Addr<1>      |V              |   18.349|
+S_Addr<1>      |Z              |  103.659|
+S_Addr<2>      |ALU_out<0>     |   92.348|
+S_Addr<2>      |ALU_out<1>     |   92.522|
+S_Addr<2>      |ALU_out<2>     |   92.699|
+S_Addr<2>      |ALU_out<3>     |   93.401|
+S_Addr<2>      |ALU_out<4>     |   92.322|
+S_Addr<2>      |ALU_out<5>     |   93.196|
+S_Addr<2>      |ALU_out<6>     |   92.619|
+S_Addr<2>      |ALU_out<7>     |   93.326|
+S_Addr<2>      |ALU_out<8>     |   93.172|
+S_Addr<2>      |ALU_out<9>     |   92.987|
+S_Addr<2>      |ALU_out<10>    |   94.189|
+S_Addr<2>      |ALU_out<11>    |   93.800|
+S_Addr<2>      |ALU_out<12>    |   93.074|
+S_Addr<2>      |ALU_out<13>    |   93.885|
+S_Addr<2>      |ALU_out<14>    |   92.900|
+S_Addr<2>      |ALU_out<15>    |   93.441|
+S_Addr<2>      |ALU_out<16>    |   93.716|
+S_Addr<2>      |ALU_out<17>    |   93.804|
+S_Addr<2>      |ALU_out<18>    |   93.999|
+S_Addr<2>      |ALU_out<19>    |   93.403|
+S_Addr<2>      |ALU_out<20>    |   94.256|
+S_Addr<2>      |ALU_out<21>    |   94.109|
+S_Addr<2>      |ALU_out<22>    |   94.668|
+S_Addr<2>      |ALU_out<23>    |   94.369|
+S_Addr<2>      |ALU_out<24>    |   94.498|
+S_Addr<2>      |ALU_out<25>    |   93.834|
+S_Addr<2>      |ALU_out<26>    |   94.595|
+S_Addr<2>      |ALU_out<27>    |   94.489|
+S_Addr<2>      |ALU_out<28>    |   94.667|
+S_Addr<2>      |ALU_out<29>    |   94.672|
+S_Addr<2>      |ALU_out<30>    |   94.233|
+S_Addr<2>      |ALU_out<31>    |   94.113|
+S_Addr<2>      |C              |   15.787|
+S_Addr<2>      |N              |   20.376|
+S_Addr<2>      |V              |   16.608|
+S_Addr<2>      |Z              |  100.535|
+S_Addr<3>      |ALU_out<0>     |   92.538|
+S_Addr<3>      |ALU_out<1>     |   92.712|
+S_Addr<3>      |ALU_out<2>     |   92.889|
+S_Addr<3>      |ALU_out<3>     |   93.591|
+S_Addr<3>      |ALU_out<4>     |   92.512|
+S_Addr<3>      |ALU_out<5>     |   93.386|
+S_Addr<3>      |ALU_out<6>     |   92.809|
+S_Addr<3>      |ALU_out<7>     |   93.516|
+S_Addr<3>      |ALU_out<8>     |   93.362|
+S_Addr<3>      |ALU_out<9>     |   93.177|
+S_Addr<3>      |ALU_out<10>    |   94.379|
+S_Addr<3>      |ALU_out<11>    |   93.990|
+S_Addr<3>      |ALU_out<12>    |   93.264|
+S_Addr<3>      |ALU_out<13>    |   94.075|
+S_Addr<3>      |ALU_out<14>    |   93.090|
+S_Addr<3>      |ALU_out<15>    |   93.631|
+S_Addr<3>      |ALU_out<16>    |   93.906|
+S_Addr<3>      |ALU_out<17>    |   93.994|
+S_Addr<3>      |ALU_out<18>    |   94.189|
+S_Addr<3>      |ALU_out<19>    |   93.593|
+S_Addr<3>      |ALU_out<20>    |   94.446|
+S_Addr<3>      |ALU_out<21>    |   94.299|
+S_Addr<3>      |ALU_out<22>    |   94.858|
+S_Addr<3>      |ALU_out<23>    |   94.559|
+S_Addr<3>      |ALU_out<24>    |   94.688|
+S_Addr<3>      |ALU_out<25>    |   94.024|
+S_Addr<3>      |ALU_out<26>    |   94.785|
+S_Addr<3>      |ALU_out<27>    |   94.679|
+S_Addr<3>      |ALU_out<28>    |   94.857|
+S_Addr<3>      |ALU_out<29>    |   94.862|
+S_Addr<3>      |ALU_out<30>    |   94.423|
+S_Addr<3>      |ALU_out<31>    |   94.303|
+S_Addr<3>      |C              |   15.977|
+S_Addr<3>      |N              |   20.268|
+S_Addr<3>      |V              |   16.798|
+S_Addr<3>      |Z              |  100.725|
+S_Addr<4>      |ALU_out<0>     |   91.544|
+S_Addr<4>      |ALU_out<1>     |   91.718|
+S_Addr<4>      |ALU_out<2>     |   91.895|
+S_Addr<4>      |ALU_out<3>     |   92.597|
+S_Addr<4>      |ALU_out<4>     |   91.518|
+S_Addr<4>      |ALU_out<5>     |   92.392|
+S_Addr<4>      |ALU_out<6>     |   91.815|
+S_Addr<4>      |ALU_out<7>     |   92.522|
+S_Addr<4>      |ALU_out<8>     |   92.368|
+S_Addr<4>      |ALU_out<9>     |   92.183|
+S_Addr<4>      |ALU_out<10>    |   93.385|
+S_Addr<4>      |ALU_out<11>    |   92.996|
+S_Addr<4>      |ALU_out<12>    |   92.270|
+S_Addr<4>      |ALU_out<13>    |   93.081|
+S_Addr<4>      |ALU_out<14>    |   92.096|
+S_Addr<4>      |ALU_out<15>    |   92.637|
+S_Addr<4>      |ALU_out<16>    |   92.912|
+S_Addr<4>      |ALU_out<17>    |   93.000|
+S_Addr<4>      |ALU_out<18>    |   93.195|
+S_Addr<4>      |ALU_out<19>    |   92.599|
+S_Addr<4>      |ALU_out<20>    |   93.452|
+S_Addr<4>      |ALU_out<21>    |   93.305|
+S_Addr<4>      |ALU_out<22>    |   93.864|
+S_Addr<4>      |ALU_out<23>    |   93.565|
+S_Addr<4>      |ALU_out<24>    |   93.694|
+S_Addr<4>      |ALU_out<25>    |   93.030|
+S_Addr<4>      |ALU_out<26>    |   93.791|
+S_Addr<4>      |ALU_out<27>    |   93.685|
+S_Addr<4>      |ALU_out<28>    |   93.863|
+S_Addr<4>      |ALU_out<29>    |   93.868|
+S_Addr<4>      |ALU_out<30>    |   93.429|
+S_Addr<4>      |ALU_out<31>    |   93.309|
+S_Addr<4>      |C              |   14.936|
+S_Addr<4>      |N              |   19.605|
+S_Addr<4>      |V              |   15.757|
+S_Addr<4>      |Z              |   99.694|
+T_Addr<0>      |ALU_out<0>     |   94.070|
+T_Addr<0>      |ALU_out<1>     |   94.244|
+T_Addr<0>      |ALU_out<2>     |   94.421|
+T_Addr<0>      |ALU_out<3>     |   95.123|
+T_Addr<0>      |ALU_out<4>     |   94.044|
+T_Addr<0>      |ALU_out<5>     |   94.918|
+T_Addr<0>      |ALU_out<6>     |   94.341|
+T_Addr<0>      |ALU_out<7>     |   95.048|
+T_Addr<0>      |ALU_out<8>     |   94.894|
+T_Addr<0>      |ALU_out<9>     |   94.709|
+T_Addr<0>      |ALU_out<10>    |   95.911|
+T_Addr<0>      |ALU_out<11>    |   95.522|
+T_Addr<0>      |ALU_out<12>    |   94.796|
+T_Addr<0>      |ALU_out<13>    |   95.607|
+T_Addr<0>      |ALU_out<14>    |   94.622|
+T_Addr<0>      |ALU_out<15>    |   95.163|
+T_Addr<0>      |ALU_out<16>    |   95.438|
+T_Addr<0>      |ALU_out<17>    |   95.526|
+T_Addr<0>      |ALU_out<18>    |   95.721|
+T_Addr<0>      |ALU_out<19>    |   95.125|
+T_Addr<0>      |ALU_out<20>    |   95.978|
+T_Addr<0>      |ALU_out<21>    |   95.831|
+T_Addr<0>      |ALU_out<22>    |   96.390|
+T_Addr<0>      |ALU_out<23>    |   96.091|
+T_Addr<0>      |ALU_out<24>    |   96.220|
+T_Addr<0>      |ALU_out<25>    |   95.556|
+T_Addr<0>      |ALU_out<26>    |   96.317|
+T_Addr<0>      |ALU_out<27>    |   96.211|
+T_Addr<0>      |ALU_out<28>    |   96.389|
+T_Addr<0>      |ALU_out<29>    |   96.394|
+T_Addr<0>      |ALU_out<30>    |   95.955|
+T_Addr<0>      |ALU_out<31>    |   95.835|
+T_Addr<0>      |C              |   16.051|
+T_Addr<0>      |D_out<0>       |   10.858|
+T_Addr<0>      |D_out<1>       |   11.904|
+T_Addr<0>      |D_out<2>       |   11.744|
+T_Addr<0>      |D_out<3>       |   12.521|
+T_Addr<0>      |D_out<4>       |   11.355|
+T_Addr<0>      |D_out<5>       |   11.214|
+T_Addr<0>      |D_out<6>       |   11.532|
+T_Addr<0>      |D_out<7>       |   10.437|
+T_Addr<0>      |D_out<8>       |   12.472|
+T_Addr<0>      |D_out<9>       |   11.641|
+T_Addr<0>      |D_out<10>      |   12.588|
+T_Addr<0>      |D_out<11>      |   10.259|
+T_Addr<0>      |D_out<12>      |   11.117|
+T_Addr<0>      |D_out<13>      |   11.637|
+T_Addr<0>      |D_out<14>      |   13.001|
+T_Addr<0>      |D_out<15>      |   11.247|
+T_Addr<0>      |D_out<16>      |   13.291|
+T_Addr<0>      |D_out<17>      |   11.982|
+T_Addr<0>      |D_out<18>      |   11.723|
+T_Addr<0>      |D_out<19>      |   12.874|
+T_Addr<0>      |D_out<20>      |   13.237|
+T_Addr<0>      |D_out<21>      |   11.457|
+T_Addr<0>      |D_out<22>      |   12.976|
+T_Addr<0>      |D_out<23>      |   13.541|
+T_Addr<0>      |D_out<24>      |   14.691|
+T_Addr<0>      |D_out<25>      |   13.417|
+T_Addr<0>      |D_out<26>      |   14.622|
+T_Addr<0>      |D_out<27>      |   14.687|
+T_Addr<0>      |D_out<28>      |   14.972|
+T_Addr<0>      |D_out<29>      |   15.156|
+T_Addr<0>      |D_out<30>      |   14.130|
+T_Addr<0>      |D_out<31>      |   13.326|
+T_Addr<0>      |N              |   23.134|
+T_Addr<0>      |V              |   17.309|
+T_Addr<0>      |Z              |  101.914|
+T_Addr<1>      |ALU_out<0>     |   94.777|
+T_Addr<1>      |ALU_out<1>     |   94.951|
+T_Addr<1>      |ALU_out<2>     |   95.128|
+T_Addr<1>      |ALU_out<3>     |   95.830|
+T_Addr<1>      |ALU_out<4>     |   94.751|
+T_Addr<1>      |ALU_out<5>     |   95.625|
+T_Addr<1>      |ALU_out<6>     |   95.048|
+T_Addr<1>      |ALU_out<7>     |   95.755|
+T_Addr<1>      |ALU_out<8>     |   95.601|
+T_Addr<1>      |ALU_out<9>     |   95.416|
+T_Addr<1>      |ALU_out<10>    |   96.618|
+T_Addr<1>      |ALU_out<11>    |   96.229|
+T_Addr<1>      |ALU_out<12>    |   95.503|
+T_Addr<1>      |ALU_out<13>    |   96.314|
+T_Addr<1>      |ALU_out<14>    |   95.329|
+T_Addr<1>      |ALU_out<15>    |   95.870|
+T_Addr<1>      |ALU_out<16>    |   96.145|
+T_Addr<1>      |ALU_out<17>    |   96.233|
+T_Addr<1>      |ALU_out<18>    |   96.428|
+T_Addr<1>      |ALU_out<19>    |   95.832|
+T_Addr<1>      |ALU_out<20>    |   96.685|
+T_Addr<1>      |ALU_out<21>    |   96.538|
+T_Addr<1>      |ALU_out<22>    |   97.097|
+T_Addr<1>      |ALU_out<23>    |   96.798|
+T_Addr<1>      |ALU_out<24>    |   96.927|
+T_Addr<1>      |ALU_out<25>    |   96.263|
+T_Addr<1>      |ALU_out<26>    |   97.024|
+T_Addr<1>      |ALU_out<27>    |   96.918|
+T_Addr<1>      |ALU_out<28>    |   97.096|
+T_Addr<1>      |ALU_out<29>    |   97.101|
+T_Addr<1>      |ALU_out<30>    |   96.662|
+T_Addr<1>      |ALU_out<31>    |   96.542|
+T_Addr<1>      |C              |   16.487|
+T_Addr<1>      |D_out<0>       |   10.119|
+T_Addr<1>      |D_out<1>       |   11.325|
+T_Addr<1>      |D_out<2>       |   12.265|
+T_Addr<1>      |D_out<3>       |   12.576|
+T_Addr<1>      |D_out<4>       |   11.217|
+T_Addr<1>      |D_out<5>       |   10.523|
+T_Addr<1>      |D_out<6>       |   11.433|
+T_Addr<1>      |D_out<7>       |   10.167|
+T_Addr<1>      |D_out<8>       |   12.263|
+T_Addr<1>      |D_out<9>       |   11.442|
+T_Addr<1>      |D_out<10>      |   12.443|
+T_Addr<1>      |D_out<11>      |    9.679|
+T_Addr<1>      |D_out<12>      |   11.007|
+T_Addr<1>      |D_out<13>      |   11.796|
+T_Addr<1>      |D_out<14>      |   13.391|
+T_Addr<1>      |D_out<15>      |   11.587|
+T_Addr<1>      |D_out<16>      |   13.736|
+T_Addr<1>      |D_out<17>      |   12.771|
+T_Addr<1>      |D_out<18>      |   12.832|
+T_Addr<1>      |D_out<19>      |   13.196|
+T_Addr<1>      |D_out<20>      |   12.869|
+T_Addr<1>      |D_out<21>      |   12.489|
+T_Addr<1>      |D_out<22>      |   14.098|
+T_Addr<1>      |D_out<23>      |   13.501|
+T_Addr<1>      |D_out<24>      |   15.187|
+T_Addr<1>      |D_out<25>      |   13.508|
+T_Addr<1>      |D_out<26>      |   15.329|
+T_Addr<1>      |D_out<27>      |   14.599|
+T_Addr<1>      |D_out<28>      |   14.768|
+T_Addr<1>      |D_out<29>      |   15.249|
+T_Addr<1>      |D_out<30>      |   14.279|
+T_Addr<1>      |D_out<31>      |   13.219|
+T_Addr<1>      |N              |   23.215|
+T_Addr<1>      |V              |   17.631|
+T_Addr<1>      |Z              |  102.621|
+T_Addr<2>      |ALU_out<0>     |   93.276|
+T_Addr<2>      |ALU_out<1>     |   93.450|
+T_Addr<2>      |ALU_out<2>     |   93.627|
+T_Addr<2>      |ALU_out<3>     |   94.329|
+T_Addr<2>      |ALU_out<4>     |   93.250|
+T_Addr<2>      |ALU_out<5>     |   94.124|
+T_Addr<2>      |ALU_out<6>     |   93.547|
+T_Addr<2>      |ALU_out<7>     |   94.254|
+T_Addr<2>      |ALU_out<8>     |   94.100|
+T_Addr<2>      |ALU_out<9>     |   93.915|
+T_Addr<2>      |ALU_out<10>    |   95.117|
+T_Addr<2>      |ALU_out<11>    |   94.728|
+T_Addr<2>      |ALU_out<12>    |   94.002|
+T_Addr<2>      |ALU_out<13>    |   94.813|
+T_Addr<2>      |ALU_out<14>    |   93.828|
+T_Addr<2>      |ALU_out<15>    |   94.369|
+T_Addr<2>      |ALU_out<16>    |   94.644|
+T_Addr<2>      |ALU_out<17>    |   94.732|
+T_Addr<2>      |ALU_out<18>    |   94.927|
+T_Addr<2>      |ALU_out<19>    |   94.331|
+T_Addr<2>      |ALU_out<20>    |   95.184|
+T_Addr<2>      |ALU_out<21>    |   95.037|
+T_Addr<2>      |ALU_out<22>    |   95.596|
+T_Addr<2>      |ALU_out<23>    |   95.297|
+T_Addr<2>      |ALU_out<24>    |   95.426|
+T_Addr<2>      |ALU_out<25>    |   94.762|
+T_Addr<2>      |ALU_out<26>    |   95.523|
+T_Addr<2>      |ALU_out<27>    |   95.417|
+T_Addr<2>      |ALU_out<28>    |   95.595|
+T_Addr<2>      |ALU_out<29>    |   95.600|
+T_Addr<2>      |ALU_out<30>    |   95.161|
+T_Addr<2>      |ALU_out<31>    |   95.041|
+T_Addr<2>      |C              |   15.436|
+T_Addr<2>      |D_out<0>       |    9.773|
+T_Addr<2>      |D_out<1>       |   10.638|
+T_Addr<2>      |D_out<2>       |   11.241|
+T_Addr<2>      |D_out<3>       |   10.783|
+T_Addr<2>      |D_out<4>       |   10.295|
+T_Addr<2>      |D_out<5>       |    9.839|
+T_Addr<2>      |D_out<6>       |   10.508|
+T_Addr<2>      |D_out<7>       |    9.702|
+T_Addr<2>      |D_out<8>       |   11.470|
+T_Addr<2>      |D_out<9>       |   11.017|
+T_Addr<2>      |D_out<10>      |   11.641|
+T_Addr<2>      |D_out<11>      |    9.103|
+T_Addr<2>      |D_out<12>      |   10.422|
+T_Addr<2>      |D_out<13>      |   10.940|
+T_Addr<2>      |D_out<14>      |   11.947|
+T_Addr<2>      |D_out<15>      |   10.323|
+T_Addr<2>      |D_out<16>      |   12.681|
+T_Addr<2>      |D_out<17>      |   12.012|
+T_Addr<2>      |D_out<18>      |   11.197|
+T_Addr<2>      |D_out<19>      |   12.050|
+T_Addr<2>      |D_out<20>      |   12.192|
+T_Addr<2>      |D_out<21>      |   11.488|
+T_Addr<2>      |D_out<22>      |   11.835|
+T_Addr<2>      |D_out<23>      |   12.703|
+T_Addr<2>      |D_out<24>      |   13.630|
+T_Addr<2>      |D_out<25>      |   12.367|
+T_Addr<2>      |D_out<26>      |   13.524|
+T_Addr<2>      |D_out<27>      |   14.057|
+T_Addr<2>      |D_out<28>      |   14.283|
+T_Addr<2>      |D_out<29>      |   14.541|
+T_Addr<2>      |D_out<30>      |   13.187|
+T_Addr<2>      |D_out<31>      |   12.441|
+T_Addr<2>      |N              |   22.132|
+T_Addr<2>      |V              |   16.694|
+T_Addr<2>      |Z              |  101.186|
+T_Addr<3>      |ALU_out<0>     |   92.628|
+T_Addr<3>      |ALU_out<1>     |   92.802|
+T_Addr<3>      |ALU_out<2>     |   92.979|
+T_Addr<3>      |ALU_out<3>     |   93.681|
+T_Addr<3>      |ALU_out<4>     |   92.602|
+T_Addr<3>      |ALU_out<5>     |   93.476|
+T_Addr<3>      |ALU_out<6>     |   92.899|
+T_Addr<3>      |ALU_out<7>     |   93.606|
+T_Addr<3>      |ALU_out<8>     |   93.452|
+T_Addr<3>      |ALU_out<9>     |   93.267|
+T_Addr<3>      |ALU_out<10>    |   94.469|
+T_Addr<3>      |ALU_out<11>    |   94.080|
+T_Addr<3>      |ALU_out<12>    |   93.354|
+T_Addr<3>      |ALU_out<13>    |   94.165|
+T_Addr<3>      |ALU_out<14>    |   93.180|
+T_Addr<3>      |ALU_out<15>    |   93.721|
+T_Addr<3>      |ALU_out<16>    |   93.996|
+T_Addr<3>      |ALU_out<17>    |   94.084|
+T_Addr<3>      |ALU_out<18>    |   94.279|
+T_Addr<3>      |ALU_out<19>    |   93.683|
+T_Addr<3>      |ALU_out<20>    |   94.536|
+T_Addr<3>      |ALU_out<21>    |   94.389|
+T_Addr<3>      |ALU_out<22>    |   94.948|
+T_Addr<3>      |ALU_out<23>    |   94.649|
+T_Addr<3>      |ALU_out<24>    |   94.778|
+T_Addr<3>      |ALU_out<25>    |   94.114|
+T_Addr<3>      |ALU_out<26>    |   94.875|
+T_Addr<3>      |ALU_out<27>    |   94.769|
+T_Addr<3>      |ALU_out<28>    |   94.947|
+T_Addr<3>      |ALU_out<29>    |   94.952|
+T_Addr<3>      |ALU_out<30>    |   94.513|
+T_Addr<3>      |ALU_out<31>    |   94.393|
+T_Addr<3>      |C              |   14.637|
+T_Addr<3>      |D_out<0>       |    8.433|
+T_Addr<3>      |D_out<1>       |   10.554|
+T_Addr<3>      |D_out<2>       |   10.885|
+T_Addr<3>      |D_out<3>       |    9.932|
+T_Addr<3>      |D_out<4>       |    8.800|
+T_Addr<3>      |D_out<5>       |    8.692|
+T_Addr<3>      |D_out<6>       |   12.053|
+T_Addr<3>      |D_out<7>       |   10.392|
+T_Addr<3>      |D_out<8>       |    9.833|
+T_Addr<3>      |D_out<9>       |   11.175|
+T_Addr<3>      |D_out<10>      |   11.873|
+T_Addr<3>      |D_out<11>      |    8.867|
+T_Addr<3>      |D_out<12>      |   12.005|
+T_Addr<3>      |D_out<13>      |   10.031|
+T_Addr<3>      |D_out<14>      |   13.380|
+T_Addr<3>      |D_out<15>      |   12.079|
+T_Addr<3>      |D_out<16>      |   11.345|
+T_Addr<3>      |D_out<17>      |   12.275|
+T_Addr<3>      |D_out<18>      |   12.602|
+T_Addr<3>      |D_out<19>      |   10.803|
+T_Addr<3>      |D_out<20>      |   13.481|
+T_Addr<3>      |D_out<21>      |   11.218|
+T_Addr<3>      |D_out<22>      |   13.241|
+T_Addr<3>      |D_out<23>      |   11.087|
+T_Addr<3>      |D_out<24>      |   12.125|
+T_Addr<3>      |D_out<25>      |   10.498|
+T_Addr<3>      |D_out<26>      |   12.015|
+T_Addr<3>      |D_out<27>      |   11.767|
+T_Addr<3>      |D_out<28>      |   12.130|
+T_Addr<3>      |D_out<29>      |   12.623|
+T_Addr<3>      |D_out<30>      |   11.109|
+T_Addr<3>      |D_out<31>      |   11.102|
+T_Addr<3>      |N              |   23.204|
+T_Addr<3>      |V              |   15.781|
+T_Addr<3>      |Z              |  100.760|
+T_Addr<4>      |ALU_out<0>     |   91.808|
+T_Addr<4>      |ALU_out<1>     |   91.982|
+T_Addr<4>      |ALU_out<2>     |   92.159|
+T_Addr<4>      |ALU_out<3>     |   92.861|
+T_Addr<4>      |ALU_out<4>     |   91.782|
+T_Addr<4>      |ALU_out<5>     |   92.656|
+T_Addr<4>      |ALU_out<6>     |   92.079|
+T_Addr<4>      |ALU_out<7>     |   92.786|
+T_Addr<4>      |ALU_out<8>     |   92.632|
+T_Addr<4>      |ALU_out<9>     |   92.447|
+T_Addr<4>      |ALU_out<10>    |   93.649|
+T_Addr<4>      |ALU_out<11>    |   93.260|
+T_Addr<4>      |ALU_out<12>    |   92.534|
+T_Addr<4>      |ALU_out<13>    |   93.345|
+T_Addr<4>      |ALU_out<14>    |   92.360|
+T_Addr<4>      |ALU_out<15>    |   92.901|
+T_Addr<4>      |ALU_out<16>    |   93.176|
+T_Addr<4>      |ALU_out<17>    |   93.264|
+T_Addr<4>      |ALU_out<18>    |   93.459|
+T_Addr<4>      |ALU_out<19>    |   92.863|
+T_Addr<4>      |ALU_out<20>    |   93.716|
+T_Addr<4>      |ALU_out<21>    |   93.569|
+T_Addr<4>      |ALU_out<22>    |   94.128|
+T_Addr<4>      |ALU_out<23>    |   93.829|
+T_Addr<4>      |ALU_out<24>    |   93.958|
+T_Addr<4>      |ALU_out<25>    |   93.294|
+T_Addr<4>      |ALU_out<26>    |   94.055|
+T_Addr<4>      |ALU_out<27>    |   93.949|
+T_Addr<4>      |ALU_out<28>    |   94.127|
+T_Addr<4>      |ALU_out<29>    |   94.132|
+T_Addr<4>      |ALU_out<30>    |   93.693|
+T_Addr<4>      |ALU_out<31>    |   93.573|
+T_Addr<4>      |C              |   14.199|
+T_Addr<4>      |D_out<0>       |    8.860|
+T_Addr<4>      |D_out<1>       |   10.315|
+T_Addr<4>      |D_out<2>       |   10.264|
+T_Addr<4>      |D_out<3>       |   10.626|
+T_Addr<4>      |D_out<4>       |    9.521|
+T_Addr<4>      |D_out<5>       |    9.401|
+T_Addr<4>      |D_out<6>       |   10.064|
+T_Addr<4>      |D_out<7>       |    9.202|
+T_Addr<4>      |D_out<8>       |   10.359|
+T_Addr<4>      |D_out<9>       |   10.718|
+T_Addr<4>      |D_out<10>      |   11.529|
+T_Addr<4>      |D_out<11>      |    8.685|
+T_Addr<4>      |D_out<12>      |   10.054|
+T_Addr<4>      |D_out<13>      |   10.374|
+T_Addr<4>      |D_out<14>      |   11.745|
+T_Addr<4>      |D_out<15>      |    9.787|
+T_Addr<4>      |D_out<16>      |   11.698|
+T_Addr<4>      |D_out<17>      |   10.765|
+T_Addr<4>      |D_out<18>      |   10.288|
+T_Addr<4>      |D_out<19>      |   10.546|
+T_Addr<4>      |D_out<20>      |   11.370|
+T_Addr<4>      |D_out<21>      |   10.155|
+T_Addr<4>      |D_out<22>      |   11.134|
+T_Addr<4>      |D_out<23>      |   11.452|
+T_Addr<4>      |D_out<24>      |   12.144|
+T_Addr<4>      |D_out<25>      |   11.073|
+T_Addr<4>      |D_out<26>      |   12.097|
+T_Addr<4>      |D_out<27>      |   11.815|
+T_Addr<4>      |D_out<28>      |   12.931|
+T_Addr<4>      |D_out<29>      |   13.304|
+T_Addr<4>      |D_out<30>      |   12.098|
+T_Addr<4>      |D_out<31>      |   11.506|
+T_Addr<4>      |N              |   21.569|
+T_Addr<4>      |V              |   15.457|
+T_Addr<4>      |Z              |   99.820|
+T_sel          |ALU_out<0>     |   90.219|
+T_sel          |ALU_out<1>     |   90.393|
+T_sel          |ALU_out<2>     |   90.570|
+T_sel          |ALU_out<3>     |   91.272|
+T_sel          |ALU_out<4>     |   90.193|
+T_sel          |ALU_out<5>     |   91.067|
+T_sel          |ALU_out<6>     |   90.490|
+T_sel          |ALU_out<7>     |   91.197|
+T_sel          |ALU_out<8>     |   91.043|
+T_sel          |ALU_out<9>     |   90.858|
+T_sel          |ALU_out<10>    |   92.060|
+T_sel          |ALU_out<11>    |   91.671|
+T_sel          |ALU_out<12>    |   90.945|
+T_sel          |ALU_out<13>    |   91.756|
+T_sel          |ALU_out<14>    |   90.771|
+T_sel          |ALU_out<15>    |   91.312|
+T_sel          |ALU_out<16>    |   91.587|
+T_sel          |ALU_out<17>    |   91.675|
+T_sel          |ALU_out<18>    |   91.870|
+T_sel          |ALU_out<19>    |   91.274|
+T_sel          |ALU_out<20>    |   92.127|
+T_sel          |ALU_out<21>    |   91.980|
+T_sel          |ALU_out<22>    |   92.539|
+T_sel          |ALU_out<23>    |   92.240|
+T_sel          |ALU_out<24>    |   92.369|
+T_sel          |ALU_out<25>    |   91.705|
+T_sel          |ALU_out<26>    |   92.466|
+T_sel          |ALU_out<27>    |   92.360|
+T_sel          |ALU_out<28>    |   92.538|
+T_sel          |ALU_out<29>    |   92.543|
+T_sel          |ALU_out<30>    |   92.104|
+T_sel          |ALU_out<31>    |   91.984|
+T_sel          |C              |   11.509|
+T_sel          |D_out<0>       |    8.283|
+T_sel          |D_out<1>       |    8.820|
+T_sel          |D_out<2>       |    9.053|
+T_sel          |D_out<3>       |    9.368|
+T_sel          |D_out<4>       |    8.880|
+T_sel          |D_out<5>       |    8.657|
+T_sel          |D_out<6>       |    9.171|
+T_sel          |D_out<7>       |    8.547|
+T_sel          |D_out<8>       |    8.903|
+T_sel          |D_out<9>       |    9.275|
+T_sel          |D_out<10>      |   10.197|
+T_sel          |D_out<11>      |    9.054|
+T_sel          |D_out<12>      |    8.650|
+T_sel          |D_out<13>      |    8.388|
+T_sel          |D_out<14>      |   10.092|
+T_sel          |D_out<15>      |    8.758|
+T_sel          |D_out<16>      |   10.181|
+T_sel          |D_out<17>      |    9.064|
+T_sel          |D_out<18>      |    9.556|
+T_sel          |D_out<19>      |    9.346|
+T_sel          |D_out<20>      |    9.919|
+T_sel          |D_out<21>      |    9.326|
+T_sel          |D_out<22>      |   10.181|
+T_sel          |D_out<23>      |   10.046|
+T_sel          |D_out<24>      |    9.773|
+T_sel          |D_out<25>      |    9.339|
+T_sel          |D_out<26>      |   10.270|
+T_sel          |D_out<27>      |   10.107|
+T_sel          |D_out<28>      |    9.777|
+T_sel          |D_out<29>      |    9.689|
+T_sel          |D_out<30>      |    9.541|
+T_sel          |D_out<31>      |   10.206|
+T_sel          |N              |   19.916|
+T_sel          |V              |   12.734|
+T_sel          |Z              |   98.238|
+Y_sel<0>       |ALU_out<0>     |   10.695|
+Y_sel<0>       |ALU_out<1>     |   10.468|
+Y_sel<0>       |ALU_out<2>     |   10.446|
+Y_sel<0>       |ALU_out<3>     |   11.036|
+Y_sel<0>       |ALU_out<4>     |   10.693|
+Y_sel<0>       |ALU_out<5>     |   10.955|
+Y_sel<0>       |ALU_out<6>     |   10.507|
+Y_sel<0>       |ALU_out<7>     |   10.662|
+Y_sel<0>       |ALU_out<8>     |   11.547|
+Y_sel<0>       |ALU_out<9>     |   10.713|
+Y_sel<0>       |ALU_out<10>    |   11.252|
+Y_sel<0>       |ALU_out<11>    |   11.698|
+Y_sel<0>       |ALU_out<12>    |   10.483|
+Y_sel<0>       |ALU_out<13>    |   11.565|
+Y_sel<0>       |ALU_out<14>    |   10.243|
+Y_sel<0>       |ALU_out<15>    |   11.264|
+Y_sel<0>       |ALU_out<16>    |   11.410|
+Y_sel<0>       |ALU_out<17>    |   11.775|
+Y_sel<0>       |ALU_out<18>    |   11.339|
+Y_sel<0>       |ALU_out<19>    |   11.867|
+Y_sel<0>       |ALU_out<20>    |   11.587|
+Y_sel<0>       |ALU_out<21>    |   11.857|
+Y_sel<0>       |ALU_out<22>    |   11.639|
+Y_sel<0>       |ALU_out<23>    |   11.731|
+Y_sel<0>       |ALU_out<24>    |   12.278|
+Y_sel<0>       |ALU_out<25>    |   11.710|
+Y_sel<0>       |ALU_out<26>    |   11.954|
+Y_sel<0>       |ALU_out<27>    |   12.145|
+Y_sel<0>       |ALU_out<28>    |   12.902|
+Y_sel<0>       |ALU_out<29>    |   11.790|
+Y_sel<0>       |ALU_out<30>    |   12.586|
+Y_sel<0>       |ALU_out<31>    |   11.440|
+Y_sel<1>       |ALU_out<0>     |   10.190|
+Y_sel<1>       |ALU_out<1>     |   10.723|
+Y_sel<1>       |ALU_out<2>     |    9.815|
+Y_sel<1>       |ALU_out<3>     |   11.618|
+Y_sel<1>       |ALU_out<4>     |   10.176|
+Y_sel<1>       |ALU_out<5>     |   10.164|
+Y_sel<1>       |ALU_out<6>     |   10.455|
+Y_sel<1>       |ALU_out<7>     |   10.037|
+Y_sel<1>       |ALU_out<8>     |   11.815|
+Y_sel<1>       |ALU_out<9>     |   10.387|
+Y_sel<1>       |ALU_out<10>    |   10.760|
+Y_sel<1>       |ALU_out<11>    |   12.018|
+Y_sel<1>       |ALU_out<12>    |   10.658|
+Y_sel<1>       |ALU_out<13>    |   10.943|
+Y_sel<1>       |ALU_out<14>    |   10.307|
+Y_sel<1>       |ALU_out<15>    |   10.869|
+Y_sel<1>       |ALU_out<16>    |   11.739|
+Y_sel<1>       |ALU_out<17>    |   11.756|
+Y_sel<1>       |ALU_out<18>    |   11.083|
+Y_sel<1>       |ALU_out<19>    |   11.431|
+Y_sel<1>       |ALU_out<20>    |   10.993|
+Y_sel<1>       |ALU_out<21>    |   11.004|
+Y_sel<1>       |ALU_out<22>    |   11.029|
+Y_sel<1>       |ALU_out<23>    |   11.567|
+Y_sel<1>       |ALU_out<24>    |   11.580|
+Y_sel<1>       |ALU_out<25>    |   10.787|
+Y_sel<1>       |ALU_out<26>    |   11.944|
+Y_sel<1>       |ALU_out<27>    |   12.023|
+Y_sel<1>       |ALU_out<28>    |   12.619|
+Y_sel<1>       |ALU_out<29>    |   11.581|
+Y_sel<1>       |ALU_out<30>    |   12.415|
+Y_sel<1>       |ALU_out<31>    |   11.145|
+Y_sel<2>       |ALU_out<0>     |    7.757|
+Y_sel<2>       |ALU_out<1>     |    8.488|
+Y_sel<2>       |ALU_out<2>     |    9.052|
+Y_sel<2>       |ALU_out<3>     |    9.533|
+Y_sel<2>       |ALU_out<4>     |    8.694|
+Y_sel<2>       |ALU_out<5>     |    8.045|
+Y_sel<2>       |ALU_out<6>     |    8.516|
+Y_sel<2>       |ALU_out<7>     |    8.202|
+Y_sel<2>       |ALU_out<8>     |   10.701|
+Y_sel<2>       |ALU_out<9>     |    8.873|
+Y_sel<2>       |ALU_out<10>    |    9.683|
+Y_sel<2>       |ALU_out<11>    |    9.127|
+Y_sel<2>       |ALU_out<12>    |    8.813|
+Y_sel<2>       |ALU_out<13>    |    9.503|
+Y_sel<2>       |ALU_out<14>    |    8.744|
+Y_sel<2>       |ALU_out<15>    |   10.171|
+Y_sel<2>       |ALU_out<16>    |   10.430|
+Y_sel<2>       |ALU_out<17>    |   10.239|
+Y_sel<2>       |ALU_out<18>    |   10.025|
+Y_sel<2>       |ALU_out<19>    |   10.439|
+Y_sel<2>       |ALU_out<20>    |   10.004|
+Y_sel<2>       |ALU_out<21>    |    9.667|
+Y_sel<2>       |ALU_out<22>    |    9.982|
+Y_sel<2>       |ALU_out<23>    |   11.249|
+Y_sel<2>       |ALU_out<24>    |   11.221|
+Y_sel<2>       |ALU_out<25>    |   10.733|
+Y_sel<2>       |ALU_out<26>    |   11.401|
+Y_sel<2>       |ALU_out<27>    |   11.217|
+Y_sel<2>       |ALU_out<28>    |   11.245|
+Y_sel<2>       |ALU_out<29>    |   11.343|
+Y_sel<2>       |ALU_out<30>    |   11.199|
+Y_sel<2>       |ALU_out<31>    |   10.887|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 29 11:11:40 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 709 MB
+
+
+

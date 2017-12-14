@@ -1,0 +1,1096 @@
+ISim log file
+Running: Y:\Documents\MIPS STACK\TOP_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Y:/Documents/MIPS STACK/TOP_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               470000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               470000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               470000 ns	 R[1]: aee95ae0 || R[17]: xxxxxxxx
+time:               470000 ns	 R[2]: f080cc66 || R[18]: xxxxxxxx
+time:               470000 ns	 R[3]: 33146170 || R[19]: xxxxxxxx
+time:               470000 ns	 R[4]: 609888ab || R[20]: xxxxxxxx
+time:               470000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               470000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               470000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               470000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               470000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               470000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               470000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               470000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               470000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               470000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               470000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               470000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[1]: aee95ae0f080cc66 || V[17]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[2]: 33146170609888ab || V[18]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[3]: 123462004c004422 || V[19]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              470000 ns	 M[0C0]=xxxxxxxx
+time:              470000 ns	 M[0C4]=xxxxxxxx
+time:              470000 ns	 M[0C8]=xxxxxxxx
+time:              470000 ns	 M[0CC]=xxxxxxxx
+time:              470000 ns	 M[0D0]=xxxxxxxx
+time:              470000 ns	 M[0D8]=xxxxxxxx
+time:              470000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              470000 ns	 IO[0C0]=xxxxxxxx
+time:              470000 ns	 IO[0C4]=xxxxxxxx
+time:              470000 ns	 IO[0C8]=xxxxxxxx
+time:              470000 ns	 IO[0CC]=xxxxxxxx
+time:              470000 ns	 IO[0D0]=xxxxxxxx
+time:              470000 ns	 IO[0D8]=xxxxxxxx
+time:              470000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 470 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               470000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               470000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               470000 ns	 R[1]: aee95ae0 || R[17]: xxxxxxxx
+time:               470000 ns	 R[2]: f080cc66 || R[18]: xxxxxxxx
+time:               470000 ns	 R[3]: 33146170 || R[19]: xxxxxxxx
+time:               470000 ns	 R[4]: 609888ab || R[20]: xxxxxxxx
+time:               470000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               470000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               470000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               470000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               470000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               470000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               470000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               470000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               470000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               470000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               470000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               470000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[1]: aee95ae0f080cc66 || V[17]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[2]: 33146170609888ab || V[18]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[3]: 22aa221a5a006c60 || V[19]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              470000 ns	 M[0C0]=xxxxxxxx
+time:              470000 ns	 M[0C4]=xxxxxxxx
+time:              470000 ns	 M[0C8]=xxxxxxxx
+time:              470000 ns	 M[0CC]=xxxxxxxx
+time:              470000 ns	 M[0D0]=xxxxxxxx
+time:              470000 ns	 M[0D8]=xxxxxxxx
+time:              470000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              470000 ns	 IO[0C0]=xxxxxxxx
+time:              470000 ns	 IO[0C4]=xxxxxxxx
+time:              470000 ns	 IO[0C8]=xxxxxxxx
+time:              470000 ns	 IO[0CC]=xxxxxxxx
+time:              470000 ns	 IO[0D0]=xxxxxxxx
+time:              470000 ns	 IO[0D8]=xxxxxxxx
+time:              470000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 470 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               470000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               470000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               470000 ns	 R[1]: 5af0a501 || R[17]: xxxxxxxx
+time:               470000 ns	 R[2]: ab0155c3 || R[18]: xxxxxxxx
+time:               470000 ns	 R[3]: a50f5a23 || R[19]: xxxxxxxx
+time:               470000 ns	 R[4]: cd23aa3c || R[20]: xxxxxxxx
+time:               470000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               470000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               470000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               470000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               470000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               470000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               470000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               470000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               470000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               470000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               470000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               470000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[1]: 5af0a501ab0155c3 || V[17]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[2]: a50f5a23cd23aa3c || V[18]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[3]: cdab2301aa553cc3 || V[19]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              470000 ns	 M[0C0]=xxxxxxxx
+time:              470000 ns	 M[0C4]=xxxxxxxx
+time:              470000 ns	 M[0C8]=xxxxxxxx
+time:              470000 ns	 M[0CC]=xxxxxxxx
+time:              470000 ns	 M[0D0]=xxxxxxxx
+time:              470000 ns	 M[0D8]=xxxxxxxx
+time:              470000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              470000 ns	 IO[0C0]=xxxxxxxx
+time:              470000 ns	 IO[0C4]=xxxxxxxx
+time:              470000 ns	 IO[0C8]=xxxxxxxx
+time:              470000 ns	 IO[0CC]=xxxxxxxx
+time:              470000 ns	 IO[0D0]=xxxxxxxx
+time:              470000 ns	 IO[0D8]=xxxxxxxx
+time:              470000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 470 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               470000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               470000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               470000 ns	 R[1]: 5af0a501 || R[17]: xxxxxxxx
+time:               470000 ns	 R[2]: ab0155c3 || R[18]: xxxxxxxx
+time:               470000 ns	 R[3]: a50f5a23 || R[19]: xxxxxxxx
+time:               470000 ns	 R[4]: cd23aa3c || R[20]: xxxxxxxx
+time:               470000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               470000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               470000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               470000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               470000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               470000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               470000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               470000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               470000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               470000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               470000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               470000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[1]: 5af0a501ab0155c3 || V[17]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[2]: a50f5a23cd23aa3c || V[18]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[3]: abcd012355aac33c || V[19]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              470000 ns	 M[0C0]=xxxxxxxx
+time:              470000 ns	 M[0C4]=xxxxxxxx
+time:              470000 ns	 M[0C8]=xxxxxxxx
+time:              470000 ns	 M[0CC]=xxxxxxxx
+time:              470000 ns	 M[0D0]=xxxxxxxx
+time:              470000 ns	 M[0D8]=xxxxxxxx
+time:              470000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              470000 ns	 IO[0C0]=xxxxxxxx
+time:              470000 ns	 IO[0C4]=xxxxxxxx
+time:              470000 ns	 IO[0C8]=xxxxxxxx
+time:              470000 ns	 IO[0CC]=xxxxxxxx
+time:              470000 ns	 IO[0D0]=xxxxxxxx
+time:              470000 ns	 IO[0D8]=xxxxxxxx
+time:              470000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 470 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               470000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               470000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               470000 ns	 R[1]: 5af0a501 || R[17]: xxxxxxxx
+time:               470000 ns	 R[2]: ab0155c3 || R[18]: xxxxxxxx
+time:               470000 ns	 R[3]: a50f5a23 || R[19]: xxxxxxxx
+time:               470000 ns	 R[4]: cd23aa3c || R[20]: xxxxxxxx
+time:               470000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               470000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               470000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               470000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               470000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               470000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               470000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               470000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               470000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               470000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               470000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               470000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[1]: 5af0a501ab0155c3 || V[17]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[2]: a50f5a23cd23aa3c || V[18]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[3]: 5aa5f00fa55a0123 || V[19]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              470000 ns	 M[0C0]=xxxxxxxx
+time:              470000 ns	 M[0C4]=xxxxxxxx
+time:              470000 ns	 M[0C8]=xxxxxxxx
+time:              470000 ns	 M[0CC]=xxxxxxxx
+time:              470000 ns	 M[0D0]=xxxxxxxx
+time:              470000 ns	 M[0D8]=xxxxxxxx
+time:              470000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              470000 ns	 IO[0C0]=xxxxxxxx
+time:              470000 ns	 IO[0C4]=xxxxxxxx
+time:              470000 ns	 IO[0C8]=xxxxxxxx
+time:              470000 ns	 IO[0CC]=xxxxxxxx
+time:              470000 ns	 IO[0D0]=xxxxxxxx
+time:              470000 ns	 IO[0D8]=xxxxxxxx
+time:              470000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 470 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               470000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               470000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               470000 ns	 R[1]: 5af0a501 || R[17]: xxxxxxxx
+time:               470000 ns	 R[2]: ab0155c3 || R[18]: xxxxxxxx
+time:               470000 ns	 R[3]: a50f5a23 || R[19]: xxxxxxxx
+time:               470000 ns	 R[4]: cd23aa3c || R[20]: xxxxxxxx
+time:               470000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               470000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               470000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               470000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               470000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               470000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               470000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               470000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               470000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               470000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               470000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               470000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[1]: 5af0a501ab0155c3 || V[17]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[2]: a50f5a23cd23aa3c || V[18]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[3]: abcd012355aac33c || V[19]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              470000 ns	 M[0C0]=xxxxxxxx
+time:              470000 ns	 M[0C4]=xxxxxxxx
+time:              470000 ns	 M[0C8]=xxxxxxxx
+time:              470000 ns	 M[0CC]=xxxxxxxx
+time:              470000 ns	 M[0D0]=xxxxxxxx
+time:              470000 ns	 M[0D8]=xxxxxxxx
+time:              470000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              470000 ns	 IO[0C0]=xxxxxxxx
+time:              470000 ns	 IO[0C4]=xxxxxxxx
+time:              470000 ns	 IO[0C8]=xxxxxxxx
+time:              470000 ns	 IO[0CC]=xxxxxxxx
+time:              470000 ns	 IO[0D0]=xxxxxxxx
+time:              470000 ns	 IO[0D8]=xxxxxxxx
+time:              470000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 470 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               470000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               470000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               470000 ns	 R[1]: 5af0a501 || R[17]: xxxxxxxx
+time:               470000 ns	 R[2]: ab0155c3 || R[18]: xxxxxxxx
+time:               470000 ns	 R[3]: a50f5a23 || R[19]: xxxxxxxx
+time:               470000 ns	 R[4]: cd23aa3c || R[20]: xxxxxxxx
+time:               470000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               470000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               470000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               470000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               470000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               470000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               470000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               470000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               470000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               470000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               470000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               470000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[1]: 5af0a501ab0155c3 || V[17]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[2]: a50f5a23cd23aa3c || V[18]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[3]: 5aa5f00fa55a0123 || V[19]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               470000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              470000 ns	 M[0C0]=xxxxxxxx
+time:              470000 ns	 M[0C4]=xxxxxxxx
+time:              470000 ns	 M[0C8]=xxxxxxxx
+time:              470000 ns	 M[0CC]=xxxxxxxx
+time:              470000 ns	 M[0D0]=xxxxxxxx
+time:              470000 ns	 M[0D8]=xxxxxxxx
+time:              470000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              470000 ns	 IO[0C0]=xxxxxxxx
+time:              470000 ns	 IO[0C4]=xxxxxxxx
+time:              470000 ns	 IO[0C8]=xxxxxxxx
+time:              470000 ns	 IO[0CC]=xxxxxxxx
+time:              470000 ns	 IO[0D0]=xxxxxxxx
+time:              470000 ns	 IO[0D8]=xxxxxxxx
+time:              470000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 470 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               170000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               170000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               170000 ns	 R[1]: xxxxxxxx || R[17]: xxxxxxxx
+time:               170000 ns	 R[2]: xxxxxxxx || R[18]: xxxxxxxx
+time:               170000 ns	 R[3]: xxxxxxxx || R[19]: xxxxxxxx
+time:               170000 ns	 R[4]: xxxxxxxx || R[20]: xxxxxxxx
+time:               170000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               170000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               170000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               170000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               170000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               170000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               170000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               170000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               170000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               170000 ns	 R[14]: 04040404 || R[30]: xxxxxxxx
+time:               170000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               170000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[1]: xxxxxxxxxxxxxxxx || V[17]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[2]: xxxxxxxxxxxxxxxx || V[18]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[3]: xxxxxxxxxxxxxxxx || V[19]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              170000 ns	 M[0C0]=xxxxxxxx
+time:              170000 ns	 M[0C4]=xxxxxxxx
+time:              170000 ns	 M[0C8]=xxxxxxxx
+time:              170000 ns	 M[0CC]=xxxxxxxx
+time:              170000 ns	 M[0D0]=xxxxxxxx
+time:              170000 ns	 M[0D8]=xxxxxxxx
+time:              170000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              170000 ns	 IO[0C0]=xxxxxxxx
+time:              170000 ns	 IO[0C4]=xxxxxxxx
+time:              170000 ns	 IO[0C8]=xxxxxxxx
+time:              170000 ns	 IO[0CC]=xxxxxxxx
+time:              170000 ns	 IO[0D0]=xxxxxxxx
+time:              170000 ns	 IO[0D8]=xxxxxxxx
+time:              170000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 170 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               170000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               170000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               170000 ns	 R[1]: xxxxxxxx || R[17]: xxxxxxxx
+time:               170000 ns	 R[2]: xxxxxxxx || R[18]: xxxxxxxx
+time:               170000 ns	 R[3]: xxxxxxxx || R[19]: xxxxxxxx
+time:               170000 ns	 R[4]: xxxxxxxx || R[20]: xxxxxxxx
+time:               170000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               170000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               170000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               170000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               170000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               170000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               170000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               170000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               170000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               170000 ns	 R[14]: 02020202 || R[30]: xxxxxxxx
+time:               170000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               170000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[1]: xxxxxxxxxxxxxxxx || V[17]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[2]: xxxxxxxxxxxxxxxx || V[18]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[3]: xxxxxxxxxxxxxxxx || V[19]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              170000 ns	 M[0C0]=xxxxxxxx
+time:              170000 ns	 M[0C4]=xxxxxxxx
+time:              170000 ns	 M[0C8]=xxxxxxxx
+time:              170000 ns	 M[0CC]=xxxxxxxx
+time:              170000 ns	 M[0D0]=xxxxxxxx
+time:              170000 ns	 M[0D8]=xxxxxxxx
+time:              170000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              170000 ns	 IO[0C0]=xxxxxxxx
+time:              170000 ns	 IO[0C4]=xxxxxxxx
+time:              170000 ns	 IO[0C8]=xxxxxxxx
+time:              170000 ns	 IO[0CC]=xxxxxxxx
+time:              170000 ns	 IO[0D0]=xxxxxxxx
+time:              170000 ns	 IO[0D8]=xxxxxxxx
+time:              170000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 170 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               170000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               170000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               170000 ns	 R[1]: xxxxxxxx || R[17]: xxxxxxxx
+time:               170000 ns	 R[2]: xxxxxxxx || R[18]: xxxxxxxx
+time:               170000 ns	 R[3]: xxxxxxxx || R[19]: xxxxxxxx
+time:               170000 ns	 R[4]: xxxxxxxx || R[20]: xxxxxxxx
+time:               170000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               170000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               170000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               170000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               170000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               170000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               170000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               170000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               170000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               170000 ns	 R[14]: 04040404 || R[30]: xxxxxxxx
+time:               170000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               170000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[1]: xxxxxxxxxxxxxxxx || V[17]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[2]: xxxxxxxxxxxxxxxx || V[18]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[3]: xxxxxxxxxxxxxxxx || V[19]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              170000 ns	 M[0C0]=xxxxxxxx
+time:              170000 ns	 M[0C4]=xxxxxxxx
+time:              170000 ns	 M[0C8]=xxxxxxxx
+time:              170000 ns	 M[0CC]=xxxxxxxx
+time:              170000 ns	 M[0D0]=xxxxxxxx
+time:              170000 ns	 M[0D8]=xxxxxxxx
+time:              170000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              170000 ns	 IO[0C0]=xxxxxxxx
+time:              170000 ns	 IO[0C4]=xxxxxxxx
+time:              170000 ns	 IO[0C8]=xxxxxxxx
+time:              170000 ns	 IO[0CC]=xxxxxxxx
+time:              170000 ns	 IO[0D0]=xxxxxxxx
+time:              170000 ns	 IO[0D8]=xxxxxxxx
+time:              170000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 170 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               170000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               170000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               170000 ns	 R[1]: xxxxxxxx || R[17]: xxxxxxxx
+time:               170000 ns	 R[2]: xxxxxxxx || R[18]: xxxxxxxx
+time:               170000 ns	 R[3]: xxxxxxxx || R[19]: xxxxxxxx
+time:               170000 ns	 R[4]: xxxxxxxx || R[20]: xxxxxxxx
+time:               170000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               170000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               170000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               170000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               170000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               170000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               170000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               170000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               170000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               170000 ns	 R[14]: 20202020 || R[30]: xxxxxxxx
+time:               170000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               170000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[1]: xxxxxxxxxxxxxxxx || V[17]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[2]: xxxxxxxxxxxxxxxx || V[18]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[3]: xxxxxxxxxxxxxxxx || V[19]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              170000 ns	 M[0C0]=xxxxxxxx
+time:              170000 ns	 M[0C4]=xxxxxxxx
+time:              170000 ns	 M[0C8]=xxxxxxxx
+time:              170000 ns	 M[0CC]=xxxxxxxx
+time:              170000 ns	 M[0D0]=xxxxxxxx
+time:              170000 ns	 M[0D8]=xxxxxxxx
+time:              170000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              170000 ns	 IO[0C0]=xxxxxxxx
+time:              170000 ns	 IO[0C4]=xxxxxxxx
+time:              170000 ns	 IO[0C8]=xxxxxxxx
+time:              170000 ns	 IO[0CC]=xxxxxxxx
+time:              170000 ns	 IO[0D0]=xxxxxxxx
+time:              170000 ns	 IO[0D8]=xxxxxxxx
+time:              170000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 170 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               170000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               170000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               170000 ns	 R[1]: xxxxxxxx || R[17]: xxxxxxxx
+time:               170000 ns	 R[2]: xxxxxxxx || R[18]: xxxxxxxx
+time:               170000 ns	 R[3]: xxxxxxxx || R[19]: xxxxxxxx
+time:               170000 ns	 R[4]: xxxxxxxx || R[20]: xxxxxxxx
+time:               170000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               170000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               170000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               170000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               170000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               170000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               170000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               170000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               170000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               170000 ns	 R[14]: 10101010 || R[30]: xxxxxxxx
+time:               170000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               170000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[1]: xxxxxxxxxxxxxxxx || V[17]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[2]: xxxxxxxxxxxxxxxx || V[18]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[3]: xxxxxxxxxxxxxxxx || V[19]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              170000 ns	 M[0C0]=xxxxxxxx
+time:              170000 ns	 M[0C4]=xxxxxxxx
+time:              170000 ns	 M[0C8]=xxxxxxxx
+time:              170000 ns	 M[0CC]=xxxxxxxx
+time:              170000 ns	 M[0D0]=xxxxxxxx
+time:              170000 ns	 M[0D8]=xxxxxxxx
+time:              170000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              170000 ns	 IO[0C0]=xxxxxxxx
+time:              170000 ns	 IO[0C4]=xxxxxxxx
+time:              170000 ns	 IO[0C8]=xxxxxxxx
+time:              170000 ns	 IO[0CC]=xxxxxxxx
+time:              170000 ns	 IO[0D0]=xxxxxxxx
+time:              170000 ns	 IO[0D8]=xxxxxxxx
+time:              170000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 170 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               170000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               170000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               170000 ns	 R[1]: xxxxxxxx || R[17]: xxxxxxxx
+time:               170000 ns	 R[2]: xxxxxxxx || R[18]: xxxxxxxx
+time:               170000 ns	 R[3]: xxxxxxxx || R[19]: xxxxxxxx
+time:               170000 ns	 R[4]: xxxxxxxx || R[20]: xxxxxxxx
+time:               170000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               170000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               170000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               170000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               170000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               170000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               170000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               170000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               170000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               170000 ns	 R[14]: 04040404 || R[30]: xxxxxxxx
+time:               170000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               170000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[1]: xxxxxxxxxxxxxxxx || V[17]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[2]: xxxxxxxxxxxxxxxx || V[18]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[3]: xxxxxxxxxxxxxxxx || V[19]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               170000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              170000 ns	 M[0C0]=xxxxxxxx
+time:              170000 ns	 M[0C4]=xxxxxxxx
+time:              170000 ns	 M[0C8]=xxxxxxxx
+time:              170000 ns	 M[0CC]=xxxxxxxx
+time:              170000 ns	 M[0D0]=xxxxxxxx
+time:              170000 ns	 M[0D8]=xxxxxxxx
+time:              170000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              170000 ns	 IO[0C0]=xxxxxxxx
+time:              170000 ns	 IO[0C4]=xxxxxxxx
+time:              170000 ns	 IO[0C8]=xxxxxxxx
+time:              170000 ns	 IO[0CC]=xxxxxxxx
+time:              170000 ns	 IO[0D0]=xxxxxxxx
+time:              170000 ns	 IO[0D8]=xxxxxxxx
+time:              170000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 170 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               200000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               200000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               200000 ns	 R[1]: xxxxxxxx || R[17]: xxxxxxxx
+time:               200000 ns	 R[2]: xxxxxxxx || R[18]: xxxxxxxx
+time:               200000 ns	 R[3]: xxxxxxxx || R[19]: xxxxxxxx
+time:               200000 ns	 R[4]: xxxxxxxx || R[20]: xxxxxxxx
+time:               200000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               200000 ns	 R[6]: xxxxxxxx || R[22]: xxxxxxxx
+time:               200000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               200000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               200000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               200000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               200000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               200000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               200000 ns	 R[13]: ffffffff || R[29]: 000003fc
+time:               200000 ns	 R[14]: ffffffff || R[30]: xxxxxxxx
+time:               200000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               200000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[1]: xxxxxxxxxxxxxxxx || V[17]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[2]: xxxxxxxxxxxxxxxx || V[18]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[3]: xxxxxxxxxxxxxxxx || V[19]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               200000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              200000 ns	 M[0C0]=xxxxxxxx
+time:              200000 ns	 M[0C4]=xxxxxxxx
+time:              200000 ns	 M[0C8]=xxxxxxxx
+time:              200000 ns	 M[0CC]=xxxxxxxx
+time:              200000 ns	 M[0D0]=xxxxxxxx
+time:              200000 ns	 M[0D8]=xxxxxxxx
+time:              200000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              200000 ns	 IO[0C0]=xxxxxxxx
+time:              200000 ns	 IO[0C4]=xxxxxxxx
+time:              200000 ns	 IO[0C8]=xxxxxxxx
+time:              200000 ns	 IO[0CC]=xxxxxxxx
+time:              200000 ns	 IO[0D0]=xxxxxxxx
+time:              200000 ns	 IO[0D8]=xxxxxxxx
+time:              200000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 200 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               520000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               520000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               520000 ns	 R[1]: 5af0a501 || R[17]: xxxxxxxx
+time:               520000 ns	 R[2]: ab0155c3 || R[18]: xxxxxxxx
+time:               520000 ns	 R[3]: a50f5a23 || R[19]: xxxxxxxx
+time:               520000 ns	 R[4]: 5aa5f00f || R[20]: xxxxxxxx
+time:               520000 ns	 R[5]: xxxxxxxx || R[21]: xxxxxxxx
+time:               520000 ns	 R[6]: a55a0123 || R[22]: xxxxxxxx
+time:               520000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               520000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               520000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               520000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               520000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               520000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               520000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               520000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               520000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               520000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[1]: 5af0a501ab0155c3 || V[17]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[2]: a50f5a23cd23aa3c || V[18]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[3]: 5aa5f00fa55a0123 || V[19]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              520000 ns	 M[0C0]=xxxxxxxx
+time:              520000 ns	 M[0C4]=xxxxxxxx
+time:              520000 ns	 M[0C8]=xxxxxxxx
+time:              520000 ns	 M[0CC]=xxxxxxxx
+time:              520000 ns	 M[0D0]=xxxxxxxx
+time:              520000 ns	 M[0D8]=xxxxxxxx
+time:              520000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              520000 ns	 IO[0C0]=xxxxxxxx
+time:              520000 ns	 IO[0C4]=xxxxxxxx
+time:              520000 ns	 IO[0C8]=xxxxxxxx
+time:              520000 ns	 IO[0CC]=xxxxxxxx
+time:              520000 ns	 IO[0D0]=xxxxxxxx
+time:              520000 ns	 IO[0D8]=xxxxxxxx
+time:              520000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 520 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ERROR: Illegal hex digit 'â' found in data of file "E_JUMP.dat" on line 130 in file "//Mac/Home/Documents/MIPS STACK/TOP.v".
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+ENHANCEMENT KEY CALLED
+BREAK INSTRUCTION FETCHED               520000
+R E G I S T E R ' S      A F T E R      B R E A K
+ 
+G E N E R A L       P U R P O S E        R E G I S T E R
+time:               520000 ns	 R[0]: 00000000 || R[16]: xxxxxxxx
+time:               520000 ns	 R[1]: 5af0a501 || R[17]: xxxxxxxx
+time:               520000 ns	 R[2]: ab0155c3 || R[18]: xxxxxxxx
+time:               520000 ns	 R[3]: a50f5a23 || R[19]: xxxxxxxx
+time:               520000 ns	 R[4]: cd23aa3c || R[20]: xxxxxxxx
+time:               520000 ns	 R[5]: 5aa5f00f || R[21]: xxxxxxxx
+time:               520000 ns	 R[6]: a55a0123 || R[22]: xxxxxxxx
+time:               520000 ns	 R[7]: xxxxxxxx || R[23]: xxxxxxxx
+time:               520000 ns	 R[8]: xxxxxxxx || R[24]: xxxxxxxx
+time:               520000 ns	 R[9]: xxxxxxxx || R[25]: xxxxxxxx
+time:               520000 ns	 R[10]: xxxxxxxx || R[26]: xxxxxxxx
+time:               520000 ns	 R[11]: xxxxxxxx || R[27]: xxxxxxxx
+time:               520000 ns	 R[12]: xxxxxxxx || R[28]: xxxxxxxx
+time:               520000 ns	 R[13]: xxxxxxxx || R[29]: 000003fc
+time:               520000 ns	 R[14]: xxxxxxxx || R[30]: xxxxxxxx
+time:               520000 ns	 R[15]: xxxxxxxx || R[31]: xxxxxxxx
+ 
+V E C T O R       P U R P O S E        R E G I S T E R
+time:               520000 ns	 V[0]: 0000000000000000 || V[16]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[1]: 5af0a501ab0155c3 || V[17]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[2]: a50f5a23cd23aa3c || V[18]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[3]: 5aa5f00fa55a0123 || V[19]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[4]: xxxxxxxxxxxxxxxx || V[20]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[5]: xxxxxxxxxxxxxxxx || V[21]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[6]: xxxxxxxxxxxxxxxx || V[22]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[7]: xxxxxxxxxxxxxxxx || V[23]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[8]: xxxxxxxxxxxxxxxx || V[24]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[9]: xxxxxxxxxxxxxxxx || V[25]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[10]: xxxxxxxxxxxxxxxx || V[26]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[11]: xxxxxxxxxxxxxxxx || V[27]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[12]: xxxxxxxxxxxxxxxx || V[28]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[13]: xxxxxxxxxxxxxxxx || V[29]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[14]: xxxxxxxxxxxxxxxx || V[30]: xxxxxxxxxxxxxxxx
+time:               520000 ns	 V[15]: xxxxxxxxxxxxxxxx || V[31]: xxxxxxxxxxxxxxxx
+ 
+D A T A         M E M O R Y
+time:              520000 ns	 M[0C0]=xxxxxxxx
+time:              520000 ns	 M[0C4]=xxxxxxxx
+time:              520000 ns	 M[0C8]=xxxxxxxx
+time:              520000 ns	 M[0CC]=xxxxxxxx
+time:              520000 ns	 M[0D0]=xxxxxxxx
+time:              520000 ns	 M[0D8]=xxxxxxxx
+time:              520000 ns	 M[0DC]=xxxxxxxx
+ 
+I N P U T        O U T P U T        M E M O R Y
+time:              520000 ns	 IO[0C0]=xxxxxxxx
+time:              520000 ns	 IO[0C4]=xxxxxxxx
+time:              520000 ns	 IO[0C8]=xxxxxxxx
+time:              520000 ns	 IO[0CC]=xxxxxxxx
+time:              520000 ns	 IO[0D0]=xxxxxxxx
+time:              520000 ns	 IO[0D8]=xxxxxxxx
+time:              520000 ns	 IO[0DC]=xxxxxxxx
+Stopped at time : 520 ns : File "//Mac/Home/Documents/MIPS STACK/MCU.v" Line 2048
